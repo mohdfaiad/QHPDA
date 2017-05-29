@@ -1,0 +1,1037 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7B4F0867-B009-449B-ADCB-D5954CE4CB62}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QHMobile</RootNamespace>
+    <AssemblyName>QHMobile</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>PocketPC</PlatformFamilyName>
+    <PlatformID>b2c48bd2-963d-4549-9169-1fa021dce484</PlatformID>
+    <OSVersion>5.02</OSVersion>
+    <DeployDirSuffix>QHMobile</DeployDirSuffix>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <NativePlatformName>Windows Mobile 6 Professional SDK</NativePlatformName>
+    <FormFactorID>
+    </FormFactorID>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.WindowsCE.Forms" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.0.0, Culture=neutral, PublicKeyToken=3be235df1c8d2ad3, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Data\DPPoList.cs" />
+    <Compile Include="CompactSQL.cs" />
+    <Compile Include="BlockBin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BlockBin.Designer.cs">
+      <DependentUpon>BlockBin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DummyClass.cs" />
+    <Compile Include="POAssignV1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POAssignV1.Designer.cs">
+      <DependentUpon>POAssignV1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SOPickingQH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SOPickingQH.Designer.cs">
+      <DependentUpon>SOPickingQH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmptyBin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmptyBin.Designer.cs">
+      <DependentUpon>EmptyBin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DailyLossFormTS.cs" />
+    <Compile Include="DailyLossQH.cs" />
+    <Compile Include="DailyLossTS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DailyLossTS.Designer.cs">
+      <DependentUpon>DailyLossTS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DailyLPost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DailyLPost.Designer.cs">
+      <DependentUpon>DailyLPost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\QHDatabaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QHDatabaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ItemJournalL.cs" />
+    <Compile Include="Adjustment.cs" />
+    <Compile Include="ItemLists.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemLists.Designer.cs">
+      <DependentUpon>ItemLists.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginInformation.cs" />
+    <Compile Include="MainScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainScreen.Designer.cs">
+      <DependentUpon>MainScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PickModule.cs" />
+    <Compile Include="PickQH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PickQH.Designer.cs">
+      <DependentUpon>PickQH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POAssignBinList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POAssignBinList.Designer.cs">
+      <DependentUpon>POAssignBinList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POModule.cs" />
+    <Compile Include="PurChaseOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurChaseOrder.Designer.cs">
+      <DependentUpon>PurChaseOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseOrderModule.cs" />
+    <Compile Include="QHDataLayer.cs" />
+    <Compile Include="QHMobileDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QHMobileDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QHUtilities.cs" />
+    <Compile Include="SoModule.cs" />
+    <Compile Include="SoModuleYH.cs" />
+    <Compile Include="SOVersionUpgrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SOVersionUpgrade.Designer.cs">
+      <DependentUpon>SOVersionUpgrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="STModule.cs" />
+    <Compile Include="Location.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Location.Designer.cs">
+      <DependentUpon>Location.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POAssignBin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POAssignBin.Designer.cs">
+      <DependentUpon>POAssignBin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QHWebservices.cs" />
+    <Compile Include="Setting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting.Designer.cs">
+      <DependentUpon>Setting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TODummyClass.cs" />
+    <Compile Include="TOModule.cs" />
+    <Compile Include="TransferOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransferOrder.Designer.cs">
+      <DependentUpon>TransferOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DailyLoss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DailyLoss.Designer.cs">
+      <DependentUpon>DailyLoss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StockTake.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockTake.Designer.cs">
+      <DependentUpon>StockTake.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateTO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateTO.Designer.cs">
+      <DependentUpon>CreateTO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reservation.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainControl.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BlockBin.resx">
+      <DependentUpon>BlockBin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POAssignV1.resx">
+      <DependentUpon>POAssignV1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SOPickingQH.resx">
+      <DependentUpon>SOPickingQH.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmptyBin.resx">
+      <DependentUpon>EmptyBin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DailyLossTS.resx">
+      <DependentUpon>DailyLossTS.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DailyLPost.resx">
+      <DependentUpon>DailyLPost.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemLists.resx">
+      <DependentUpon>ItemLists.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Location.resx">
+      <DependentUpon>Location.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainScreen.resx">
+      <DependentUpon>MainScreen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PickQH.resx">
+      <DependentUpon>PickQH.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POAssignBin.resx">
+      <DependentUpon>POAssignBin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POAssignBinList.resx">
+      <DependentUpon>POAssignBinList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurChaseOrder.resx">
+      <DependentUpon>PurChaseOrder.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting.resx">
+      <DependentUpon>Setting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransferOrder.resx">
+      <DependentUpon>TransferOrder.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DailyLoss.resx">
+      <DependentUpon>DailyLoss.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockTake.resx">
+      <DependentUpon>StockTake.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateTO.resx">
+      <DependentUpon>CreateTO.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VendorList.resx">
+      <DependentUpon>VendorList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="VendorList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VendorList.Designer.cs">
+      <DependentUpon>VendorList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\BinQH\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ItemJournalDailyLossQH\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ItemJournalQH\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ItemQH\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\PostedTransferShipmentQH\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\PurchaseQH\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\PutAlwaysLinesQH\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\PutAlwaysQH\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\QHBinContent\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\QHDummyBin\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\QHEmptyTank\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\QHItemJournalLine\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\QHIventoryPick\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\QHSalesReceivableSetup\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\qhStockTakeWS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\QHWarehouseEntry\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\QH_Functions\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\QH_Location\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\SaleOrderQH\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\TransferOrderLineQH\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\TransferOrderQH\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\UsersQH\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\VendorListQH\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WarehouseRequestQH\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WhseLineQH\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="WebServiceInstants.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="config.xml" />
+    <Content Include="Data\QHDatabase.sdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\caargo_64.png" />
+    <Content Include="Images\exit.png" />
+    <Content Include="Images\exit1.png" />
+    <Content Include="Images\grn.png" />
+    <Content Include="Images\setting.png" />
+    <Content Include="Images\setting1.png" />
+    <Content Include="Images\so.png" />
+    <Content Include="Images\toreceive.png" />
+    <Content Include="Images\toship.png" />
+    <Content Include="QHMobile.sdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="test.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Data\QHDatabaseDataSet.xsc">
+      <DependentUpon>QHDatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Data\QHDatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QHDatabaseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Data\QHDatabaseDataSet.xss">
+      <DependentUpon>QHDatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QHMobileDataSet.xsc">
+      <DependentUpon>QHMobileDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QHMobileDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QHMobileDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QHMobileDataSet.xss">
+      <DependentUpon>QHMobileDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Web References\BinQH\BinQH.wsdl" />
+    <None Include="Web References\BinQH\BinQH1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\BinQH\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\ItemJournalDailyLossQH\ItemJournalDailyLossQH.wsdl" />
+    <None Include="Web References\ItemJournalDailyLossQH\ItemJournalDailyLossQH1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ItemJournalDailyLossQH\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\ItemJournalQH\ItemJournalQH.wsdl" />
+    <None Include="Web References\ItemJournalQH\ItemJournalQH1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ItemJournalQH\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\ItemQH\ItemQH.wsdl" />
+    <None Include="Web References\ItemQH\ItemQH1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ItemQH\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\PostedTransferShipmentQH\PostedTransferShipmentQH.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PostedTransferShipmentQH\PostedTransferShipmentQH.wsdl" />
+    <None Include="Web References\PostedTransferShipmentQH\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\PurchaseQH\PurchaseQH.wsdl" />
+    <None Include="Web References\PurchaseQH\PurchaseQH1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PurchaseQH\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\PutAlwaysLinesQH\PutAlwaysLinesQH.wsdl" />
+    <None Include="Web References\PutAlwaysLinesQH\PutAlwaysLinesQH1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PutAlwaysLinesQH\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\PutAlwaysQH\PutAlwaysQH.wsdl" />
+    <None Include="Web References\PutAlwaysQH\PutAlwaysQH1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PutAlwaysQH\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\QHBinContent\QHBinContent.wsdl" />
+    <None Include="Web References\QHBinContent\QHBinContent1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\QHBinContent\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\QHDummyBin\QHDummyBin.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\QHDummyBin\QHDummyBin.wsdl" />
+    <None Include="Web References\QHDummyBin\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\QHEmptyTank\QHEmptyTank.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\QHEmptyTank\QHEmptyTank.wsdl" />
+    <None Include="Web References\QHEmptyTank\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\QHItemJournalLine\QHItemJournalLine.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\QHItemJournalLine\QHItemJournalLine.wsdl" />
+    <None Include="Web References\QHItemJournalLine\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\QHIventoryPick\IventoryPick.wsdl" />
+    <None Include="Web References\QHIventoryPick\IventoryPick1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\QHIventoryPick\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\QHSalesReceivableSetup\QHSalesReceivableSetup.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\QHSalesReceivableSetup\QHSalesReceivableSetup.wsdl" />
+    <None Include="Web References\QHSalesReceivableSetup\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\qhStockTakeWS\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\qhStockTakeWS\StockTakeWS.wsdl" />
+    <None Include="Web References\qhStockTakeWS\StockTakeWS1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\QHWarehouseEntry\QHWarehouseEntry.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\QHWarehouseEntry\QHWarehouseEntry.wsdl" />
+    <None Include="Web References\QHWarehouseEntry\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\QH_Functions\QH_Functions.wsdl" />
+    <None Include="Web References\QH_Functions\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\QH_Location\QH_Location.wsdl" />
+    <None Include="Web References\QH_Location\QH_Location1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\QH_Location\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\SaleOrderQH\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\SaleOrderQH\SaleOrderQH.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\SaleOrderQH\SaleOrderQH.wsdl" />
+    <None Include="Web References\TransferOrderLineQH\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\TransferOrderLineQH\TransferOrderLineQH.wsdl" />
+    <None Include="Web References\TransferOrderLineQH\TransferOrderLineQH1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TransferOrderQH\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\TransferOrderQH\TransferOrderQH.wsdl" />
+    <None Include="Web References\TransferOrderQH\TransferOrderQH1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\UsersQH\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\UsersQH\UsersQH.wsdl" />
+    <None Include="Web References\UsersQH\UsersQH1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\VendorListQH\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\VendorListQH\VendorListQH.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\VendorListQH\VendorListQH.wsdl" />
+    <None Include="Web References\WarehouseRequestQH\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WarehouseRequestQH\WarehouseRequestQH.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WarehouseRequestQH\WarehouseRequestQH.wsdl" />
+    <None Include="Web References\WhseLineQH\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WhseLineQH\WhseLineQH.wsdl" />
+    <None Include="Web References\WhseLineQH\WhseLineQH1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Page/QHSalesReceivableSetup">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\QHSalesReceivableSetup\</RelPath>
+      <UpdateFromURL>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Page/QHSalesReceivableSetup</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian Hu/Page/QHDummyBin">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\QHDummyBin\</RelPath>
+      <UpdateFromURL>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian Hu/Page/QHDummyBin</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian Hu/Page/PostedTransferShipmentQH">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\PostedTransferShipmentQH\</RelPath>
+      <UpdateFromURL>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian Hu/Page/PostedTransferShipmentQH</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian Hu/Page/BinQH">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\BinQH\</RelPath>
+      <UpdateFromURL>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian Hu/Page/BinQH</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu%2520Database/Codeunit/QH_Functions">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\QH_Functions\</RelPath>
+      <UpdateFromURL>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu%2520Database/Codeunit/QH_Functions</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/ItemJournalDailyLossQH">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\ItemJournalDailyLossQH\</RelPath>
+      <UpdateFromURL>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/ItemJournalDailyLossQH</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/ItemJournalQH">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\ItemJournalQH\</RelPath>
+      <UpdateFromURL>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/ItemJournalQH</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/ItemQH">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\ItemQH\</RelPath>
+      <UpdateFromURL>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/ItemQH</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/IventoryPick">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\QHIventoryPick\</RelPath>
+      <UpdateFromURL>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/IventoryPick</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/PurchaseQH">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\PurchaseQH\</RelPath>
+      <UpdateFromURL>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/PurchaseQH</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/PutAlwaysLinesQH">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\PutAlwaysLinesQH\</RelPath>
+      <UpdateFromURL>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/PutAlwaysLinesQH</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/PutAlwaysQH">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\PutAlwaysQH\</RelPath>
+      <UpdateFromURL>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/PutAlwaysQH</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian Hu/Page/QHBinContent">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\QHBinContent\</RelPath>
+      <UpdateFromURL>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian Hu/Page/QHBinContent</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian Hu/Page/QHEmptyTank">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\QHEmptyTank\</RelPath>
+      <UpdateFromURL>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian Hu/Page/QHEmptyTank</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/QHItemJournalLine">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\QHItemJournalLine\</RelPath>
+      <UpdateFromURL>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/QHItemJournalLine</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/QHWarehouseEntry">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\QHWarehouseEntry\</RelPath>
+      <UpdateFromURL>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/QHWarehouseEntry</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/QH_Location">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\QH_Location\</RelPath>
+      <UpdateFromURL>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/QH_Location</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/SaleOrderQH">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\SaleOrderQH\</RelPath>
+      <UpdateFromURL>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/SaleOrderQH</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/StockTakeWS">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\qhStockTakeWS\</RelPath>
+      <UpdateFromURL>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/StockTakeWS</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/TransferOrderLineQH">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\TransferOrderLineQH\</RelPath>
+      <UpdateFromURL>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/TransferOrderLineQH</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/TransferOrderQH">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\TransferOrderQH\</RelPath>
+      <UpdateFromURL>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/TransferOrderQH</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/UsersQH">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\UsersQH\</RelPath>
+      <UpdateFromURL>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/UsersQH</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/VendorListQH">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\VendorListQH\</RelPath>
+      <UpdateFromURL>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/VendorListQH</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/WarehouseRequestQH">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\WarehouseRequestQH\</RelPath>
+      <UpdateFromURL>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/WarehouseRequestQH</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/WhseLineQH">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\WhseLineQH\</RelPath>
+      <UpdateFromURL>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%2520Hu/Page/WhseLineQH</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

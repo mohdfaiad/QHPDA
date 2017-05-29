@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <Servicepassword></Servicepassword>
+  <userName>adminnas</userName>
+  <password>qh@71</password>
+  <domain>QIANHU-NAV1</domain>
+	<ServiceUser>adminnas</ServiceUser>
+	
+	<Serviceurl>http://qianhu-nav1:7047/DynamicsNAV/WS/Qian%20Hu%20Database/services</Serviceurl>
+	<Company>RGS Enterprise (UAT)</Company>
+  <UsersQH>http://qianhu-nav1:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/UsersQH</UsersQH>
+  <WhseLineQH>http://qianhu-nav1:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/WhseLineQH</WhseLineQH>
+  <BinQH>http://qianhu-nav1:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/BinQH</BinQH>
+  <ItemJournalDailyLossQH>http://qianhu-nav1:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/ItemJournalDailyLossQH</ItemJournalDailyLossQH>
+  <ItemJournalQH>http://qianhu-nav1:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/ItemJournalQH</ItemJournalQH>
+  <ItemQH>http://qianhu-nav1:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/ItemQH</ItemQH>
+  <PurchaseQH>http://qianhu-nav1:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/PurchaseQH</PurchaseQH>
+  <PutAlwaysLinesQH>http://qianhu-nav1:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/PutAlwaysLinesQH</PutAlwaysLinesQH>
+  <PutAlwaysQH>http://qianhu-nav1:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/PutAlwaysQH</PutAlwaysQH>
+  <QH_Location>http://qianhu-nav1:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/QH_Location</QH_Location>
+  <QHBinContent>http://qianhu-nav1:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/QHBinContent</QHBinContent>
+  <IventoryPick>http://qianhu-nav1:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/IventoryPick</IventoryPick>
+  <StockTakeWS>http://qianhu-nav1:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/StockTakeWS</StockTakeWS>
+  <TransferOrderLineQH>http://qianhu-nav1:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/TransferOrderLineQH</TransferOrderLineQH>
+  <TransferOrderQH>http://qianhu-nav1:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/TransferOrderQH</TransferOrderQH>
+  <VendorListQH>http://qianhu-nav1:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/VendorListQH</VendorListQH> 	
+</config>

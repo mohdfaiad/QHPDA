@@ -1,0 +1,1951 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:tns="urn:microsoft-dynamics-schemas/codeunit/QH_Functions" targetNamespace="urn:microsoft-dynamics-schemas/codeunit/QH_Functions" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <schema elementFormDefault="qualified" targetNamespace="urn:microsoft-dynamics-schemas/codeunit/QH_Functions" xmlns="http://www.w3.org/2001/XMLSchema">
+      <element name="PostSaleOrder">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="sONo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="isShip" type="boolean" />
+            <element minOccurs="1" maxOccurs="1" name="isReceive" type="boolean" />
+            <element minOccurs="1" maxOccurs="1" name="isInvoice" type="boolean" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="PostSaleOrder_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="PostPurchaseOrder">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="pONo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="isReceive" type="boolean" />
+            <element minOccurs="1" maxOccurs="1" name="isInvoice" type="boolean" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="PostPurchaseOrder_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="PostTrasferOrder">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="tONo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="isReceipt" type="boolean" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="PostTrasferOrder_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="PostItemJournalLine">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="PostItemJournalLine_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="int" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="PostItemJournalLineNeg">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="PostItemJournalLineNeg_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CreatSplitLineWhs">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="no" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="lineno" type="int" />
+            <element minOccurs="1" maxOccurs="1" name="qtytoHandle" type="decimal" />
+            <element minOccurs="1" maxOccurs="1" name="strBin" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CreatSplitLineWhs_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="PostItemJournalReClassic">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="PostItemJournalReClassic_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="ReleasePO">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="orderNo" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="ReleasePO_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="PostReceiveInventoryPutAway">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="invPutAwayNo" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="PostReceiveInventoryPutAway_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="UpdateDepItemJournal">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="journalTemplateName" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="journalBatchName" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="UpdateDepItemJournal_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="CreateInvPick">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="pOrderNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pSellToCustNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pSourceNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pSourceType" type="int" />
+            <element minOccurs="1" maxOccurs="1" name="pSourceSubType" type="int" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CreateInvPick_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="CreateInvPickHeader">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="pSourceNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pLocationCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pSellToCustNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pSourceType" type="int" />
+            <element minOccurs="1" maxOccurs="1" name="pSourceSubType" type="int" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CreateInvPickHeader_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CreateInvPickLine">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="pInvPickNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pOrderNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pSourceLineNo" type="int" />
+            <element minOccurs="1" maxOccurs="1" name="pLocationCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pItemNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pQty" type="decimal" />
+            <element minOccurs="1" maxOccurs="1" name="pBinCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pSourceNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pSourceType" type="int" />
+            <element minOccurs="1" maxOccurs="1" name="pSourceSubType" type="int" />
+            <element minOccurs="1" maxOccurs="1" name="pStaffDim" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pBagNo" type="int" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CreateInvPickLine_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="CreateWHRequestOUT">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="pOrderNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pSellToCustNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pLocationCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pSourceType" type="int" />
+            <element minOccurs="1" maxOccurs="1" name="pSourceSubType" type="int" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CreateWHRequestOUT_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="GetEmptyBin">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="strItemNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="strLocation" type="string" />
+            <element minOccurs="1" maxOccurs="unbounded" name="strEmptyBin" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="GetEmptyBin_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="unbounded" name="strEmptyBin" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="UpdateDepItemReclassicJournal">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="journalTemplateName" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="journalBatchName" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="UpdateDepItemReclassicJournal_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="CreateInvPutAwayTransferOrder">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="pOrderNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pBuyFromVendorNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pSourceNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pSourceType" type="int" />
+            <element minOccurs="1" maxOccurs="1" name="pSourceSubType" type="int" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CreateInvPutAwayTransferOrder_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CreateInvPutAwayHeader">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="pSourceNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pLocationCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pBuyFromVendorNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pSourceType" type="int" />
+            <element minOccurs="1" maxOccurs="1" name="pSourceSubType" type="int" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CreateInvPutAwayHeader_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CreateInvPutAwayLine">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="pInvPutAwayNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pOrderNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pSourceLineNo" type="int" />
+            <element minOccurs="1" maxOccurs="1" name="pLocationCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pItemNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pQty" type="decimal" />
+            <element minOccurs="1" maxOccurs="1" name="pBinCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pSourceNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pSourceType" type="int" />
+            <element minOccurs="1" maxOccurs="1" name="pSourceSubType" type="int" />
+            <element minOccurs="1" maxOccurs="1" name="pStaffDimension" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CreateInvPutAwayLine_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="CreateWHRequestIN">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="pOrderNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pSellToCustNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pLocationCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pSourceType" type="int" />
+            <element minOccurs="1" maxOccurs="1" name="pSourceSubType" type="int" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CreateWHRequestIN_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="CreateInvPickTransferOrder">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="pOrderNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pSellToCustNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pSourceNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pSourceType" type="int" />
+            <element minOccurs="1" maxOccurs="1" name="pSourceSubType" type="int" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CreateInvPickTransferOrder_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="PostInventoryPick">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="invPickNo" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="PostInventoryPick_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="ReleaseTO">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="pTONo" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="ReleaseTO_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="DocDimension">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="pDocNo" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="DocDimension_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="GetBinContentAvalBin">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="lLoc" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="lBin" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="lItem" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="lQty" type="decimal" />
+            <element minOccurs="1" maxOccurs="unbounded" name="strSuggestBin" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="GetBinContentAvalBin_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="unbounded" name="strSuggestBin" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="GetStockTakeLastLineNo">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="GetStockTakeLastLineNo_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="int" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CheckBinContent">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="locationCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="binCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="itemNo" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CheckBinContent_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="boolean" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="GetBarcodePOPick">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="iNo" type="int" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="GetBarcodePOPick_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="InsertIJLPositiveAdjustment">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="itemNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="extDocNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="locationCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="binCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="qty" type="decimal" />
+            <element minOccurs="1" maxOccurs="1" name="staffDim" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pDAName" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="moduleName" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="InsertIJLPositiveAdjustment_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="InsertIJLNegativeAdjustment">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="itemNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="extDocNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="locationCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="binCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="qty" type="decimal" />
+            <element minOccurs="1" maxOccurs="1" name="staffDim" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="InsertIJLNegativeAdjustment_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="CheckItemSubstitution">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="itemNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="substituteItemNo" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CheckItemSubstitution_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="boolean" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="TankAdj_NAV">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="itemNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="extDocNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="location" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="binCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="qty" type="decimal" />
+            <element minOccurs="1" maxOccurs="1" name="emptyTank" type="boolean" />
+            <element minOccurs="1" maxOccurs="1" name="staffDim" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pDAName" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="moduleName" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="TankAdj_NAV_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="CreateAdjJnl_NAV">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="itemNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="extDocNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="location" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="binCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="qty" type="decimal" />
+            <element minOccurs="1" maxOccurs="1" name="staffDim" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CreateAdjJnl_NAV_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="SubstituteItem">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="itemNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="substituteItemNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="extDocNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="location" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="binCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="qty" type="decimal" />
+            <element minOccurs="1" maxOccurs="1" name="staffDim" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pDAName" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="moduleName" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="SubstituteItem_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="CreatSplitLineWhs2">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="no" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="iSourceLineno" type="int" />
+            <element minOccurs="1" maxOccurs="1" name="qtytoHandle" type="decimal" />
+            <element minOccurs="1" maxOccurs="1" name="strBin" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="strStaffDim" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CreatSplitLineWhs2_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="HandleSplitLine">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="no" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="iLineno" type="int" />
+            <element minOccurs="1" maxOccurs="1" name="qtytoHandle" type="decimal" />
+            <element minOccurs="1" maxOccurs="1" name="strBin" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="iSourceLineNo" type="int" />
+            <element minOccurs="1" maxOccurs="1" name="strStaffDim" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="HandleSplitLine_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="CheckInvPickQtyToHandle">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="no" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="iSourceLineno" type="int" />
+            <element minOccurs="1" maxOccurs="1" name="qtytoHandle" type="decimal" />
+            <element minOccurs="1" maxOccurs="1" name="itemNo" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CheckInvPickQtyToHandle_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="UpdateDeptTransferLine">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="tONo" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="UpdateDeptTransferLine_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="PostItemJournalLine_DEFAULT">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="PostItemJournalLine_DEFAULT_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="int" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CombineInvtPick">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="pWNo" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CombineInvtPick_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="CheckBinContentInsert">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="locationCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="binCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="itemNo" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CheckBinContentInsert_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="CheckBinContent_POAssignment">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="locationCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="binCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="itemNo" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CheckBinContent_POAssignment_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="boolean" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CheckDuplicateTOLines">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="pTONo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pFromLocation" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pToLocation" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pFromBin" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pToBin" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pItemNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pQty" type="decimal" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CheckDuplicateTOLines_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="boolean" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="UpdateSalesOrder">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="pSONo" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="UpdateSalesOrder_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="CreateSalesLine">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="pSONo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pItemNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pLocation" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pBinCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pQty" type="decimal" />
+            <element minOccurs="1" maxOccurs="1" name="pStaffDimension" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CreateSalesLine_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="GetSalesPrice">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="itemNoa46" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="cust_No" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="startDate" type="date" />
+            <element minOccurs="1" maxOccurs="1" name="priceGroup" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="GetSalesPrice_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="decimal" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CreateStaffDimOnPurchLine">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="pONo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pOLineNo" type="int" />
+            <element minOccurs="1" maxOccurs="1" name="pStaffDimension" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CreateStaffDimOnPurchLine_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="ExternalVendor">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="vendorNo" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="ExternalVendor_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="boolean" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CombineInvtPutAway">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="pONo" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CombineInvtPutAway_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="ClearBinContent_POAssignment">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="locationCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="binCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="itemNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="extDocNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="staffDim" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="ClearBinContent_POAssignment_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="boolean" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CheckBinContent2">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="locationCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="binCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="itemNo" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CheckBinContent2_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="boolean" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="BinContentInfo">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="locationCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="binCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="itemNo" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="BinContentInfo_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="locationCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="binCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="itemNo" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CompareDate">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="strDay" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="strMonth" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="strYear" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CompareDate_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="boolean" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="ScanTObyFromBin">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="fBinCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="itemNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="avalQty" type="decimal" />
+            <element minOccurs="1" maxOccurs="1" name="location" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="ScanTObyFromBin_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="int" />
+            <element minOccurs="1" maxOccurs="1" name="itemNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="avalQty" type="decimal" />
+            <element minOccurs="1" maxOccurs="1" name="location" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CheckDummyBin">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="locationCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="binCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="itemNo" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CheckDummyBin_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="boolean" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CheckDummyBinSameItem">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="locationCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="binCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="itemNo" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="CheckDummyBinSameItem_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="boolean" />
+          </sequence>
+        </complexType>
+      </element>
+    </schema>
+  </types>
+  <message name="PostSaleOrder">
+    <part name="parameters" element="tns:PostSaleOrder" />
+  </message>
+  <message name="PostSaleOrder_Result">
+    <part name="parameters" element="tns:PostSaleOrder_Result" />
+  </message>
+  <message name="PostPurchaseOrder">
+    <part name="parameters" element="tns:PostPurchaseOrder" />
+  </message>
+  <message name="PostPurchaseOrder_Result">
+    <part name="parameters" element="tns:PostPurchaseOrder_Result" />
+  </message>
+  <message name="PostTrasferOrder">
+    <part name="parameters" element="tns:PostTrasferOrder" />
+  </message>
+  <message name="PostTrasferOrder_Result">
+    <part name="parameters" element="tns:PostTrasferOrder_Result" />
+  </message>
+  <message name="PostItemJournalLine">
+    <part name="parameters" element="tns:PostItemJournalLine" />
+  </message>
+  <message name="PostItemJournalLine_Result">
+    <part name="parameters" element="tns:PostItemJournalLine_Result" />
+  </message>
+  <message name="PostItemJournalLineNeg">
+    <part name="parameters" element="tns:PostItemJournalLineNeg" />
+  </message>
+  <message name="PostItemJournalLineNeg_Result">
+    <part name="parameters" element="tns:PostItemJournalLineNeg_Result" />
+  </message>
+  <message name="CreatSplitLineWhs">
+    <part name="parameters" element="tns:CreatSplitLineWhs" />
+  </message>
+  <message name="CreatSplitLineWhs_Result">
+    <part name="parameters" element="tns:CreatSplitLineWhs_Result" />
+  </message>
+  <message name="PostItemJournalReClassic">
+    <part name="parameters" element="tns:PostItemJournalReClassic" />
+  </message>
+  <message name="PostItemJournalReClassic_Result">
+    <part name="parameters" element="tns:PostItemJournalReClassic_Result" />
+  </message>
+  <message name="ReleasePO">
+    <part name="parameters" element="tns:ReleasePO" />
+  </message>
+  <message name="ReleasePO_Result">
+    <part name="parameters" element="tns:ReleasePO_Result" />
+  </message>
+  <message name="PostReceiveInventoryPutAway">
+    <part name="parameters" element="tns:PostReceiveInventoryPutAway" />
+  </message>
+  <message name="PostReceiveInventoryPutAway_Result">
+    <part name="parameters" element="tns:PostReceiveInventoryPutAway_Result" />
+  </message>
+  <message name="UpdateDepItemJournal">
+    <part name="parameters" element="tns:UpdateDepItemJournal" />
+  </message>
+  <message name="UpdateDepItemJournal_Result">
+    <part name="parameters" element="tns:UpdateDepItemJournal_Result" />
+  </message>
+  <message name="CreateInvPick">
+    <part name="parameters" element="tns:CreateInvPick" />
+  </message>
+  <message name="CreateInvPick_Result">
+    <part name="parameters" element="tns:CreateInvPick_Result" />
+  </message>
+  <message name="CreateInvPickHeader">
+    <part name="parameters" element="tns:CreateInvPickHeader" />
+  </message>
+  <message name="CreateInvPickHeader_Result">
+    <part name="parameters" element="tns:CreateInvPickHeader_Result" />
+  </message>
+  <message name="CreateInvPickLine">
+    <part name="parameters" element="tns:CreateInvPickLine" />
+  </message>
+  <message name="CreateInvPickLine_Result">
+    <part name="parameters" element="tns:CreateInvPickLine_Result" />
+  </message>
+  <message name="CreateWHRequestOUT">
+    <part name="parameters" element="tns:CreateWHRequestOUT" />
+  </message>
+  <message name="CreateWHRequestOUT_Result">
+    <part name="parameters" element="tns:CreateWHRequestOUT_Result" />
+  </message>
+  <message name="GetEmptyBin">
+    <part name="parameters" element="tns:GetEmptyBin" />
+  </message>
+  <message name="GetEmptyBin_Result">
+    <part name="parameters" element="tns:GetEmptyBin_Result" />
+  </message>
+  <message name="UpdateDepItemReclassicJournal">
+    <part name="parameters" element="tns:UpdateDepItemReclassicJournal" />
+  </message>
+  <message name="UpdateDepItemReclassicJournal_Result">
+    <part name="parameters" element="tns:UpdateDepItemReclassicJournal_Result" />
+  </message>
+  <message name="CreateInvPutAwayTransferOrder">
+    <part name="parameters" element="tns:CreateInvPutAwayTransferOrder" />
+  </message>
+  <message name="CreateInvPutAwayTransferOrder_Result">
+    <part name="parameters" element="tns:CreateInvPutAwayTransferOrder_Result" />
+  </message>
+  <message name="CreateInvPutAwayHeader">
+    <part name="parameters" element="tns:CreateInvPutAwayHeader" />
+  </message>
+  <message name="CreateInvPutAwayHeader_Result">
+    <part name="parameters" element="tns:CreateInvPutAwayHeader_Result" />
+  </message>
+  <message name="CreateInvPutAwayLine">
+    <part name="parameters" element="tns:CreateInvPutAwayLine" />
+  </message>
+  <message name="CreateInvPutAwayLine_Result">
+    <part name="parameters" element="tns:CreateInvPutAwayLine_Result" />
+  </message>
+  <message name="CreateWHRequestIN">
+    <part name="parameters" element="tns:CreateWHRequestIN" />
+  </message>
+  <message name="CreateWHRequestIN_Result">
+    <part name="parameters" element="tns:CreateWHRequestIN_Result" />
+  </message>
+  <message name="CreateInvPickTransferOrder">
+    <part name="parameters" element="tns:CreateInvPickTransferOrder" />
+  </message>
+  <message name="CreateInvPickTransferOrder_Result">
+    <part name="parameters" element="tns:CreateInvPickTransferOrder_Result" />
+  </message>
+  <message name="PostInventoryPick">
+    <part name="parameters" element="tns:PostInventoryPick" />
+  </message>
+  <message name="PostInventoryPick_Result">
+    <part name="parameters" element="tns:PostInventoryPick_Result" />
+  </message>
+  <message name="ReleaseTO">
+    <part name="parameters" element="tns:ReleaseTO" />
+  </message>
+  <message name="ReleaseTO_Result">
+    <part name="parameters" element="tns:ReleaseTO_Result" />
+  </message>
+  <message name="DocDimension">
+    <part name="parameters" element="tns:DocDimension" />
+  </message>
+  <message name="DocDimension_Result">
+    <part name="parameters" element="tns:DocDimension_Result" />
+  </message>
+  <message name="GetBinContentAvalBin">
+    <part name="parameters" element="tns:GetBinContentAvalBin" />
+  </message>
+  <message name="GetBinContentAvalBin_Result">
+    <part name="parameters" element="tns:GetBinContentAvalBin_Result" />
+  </message>
+  <message name="GetStockTakeLastLineNo">
+    <part name="parameters" element="tns:GetStockTakeLastLineNo" />
+  </message>
+  <message name="GetStockTakeLastLineNo_Result">
+    <part name="parameters" element="tns:GetStockTakeLastLineNo_Result" />
+  </message>
+  <message name="CheckBinContent">
+    <part name="parameters" element="tns:CheckBinContent" />
+  </message>
+  <message name="CheckBinContent_Result">
+    <part name="parameters" element="tns:CheckBinContent_Result" />
+  </message>
+  <message name="GetBarcodePOPick">
+    <part name="parameters" element="tns:GetBarcodePOPick" />
+  </message>
+  <message name="GetBarcodePOPick_Result">
+    <part name="parameters" element="tns:GetBarcodePOPick_Result" />
+  </message>
+  <message name="InsertIJLPositiveAdjustment">
+    <part name="parameters" element="tns:InsertIJLPositiveAdjustment" />
+  </message>
+  <message name="InsertIJLPositiveAdjustment_Result">
+    <part name="parameters" element="tns:InsertIJLPositiveAdjustment_Result" />
+  </message>
+  <message name="InsertIJLNegativeAdjustment">
+    <part name="parameters" element="tns:InsertIJLNegativeAdjustment" />
+  </message>
+  <message name="InsertIJLNegativeAdjustment_Result">
+    <part name="parameters" element="tns:InsertIJLNegativeAdjustment_Result" />
+  </message>
+  <message name="CheckItemSubstitution">
+    <part name="parameters" element="tns:CheckItemSubstitution" />
+  </message>
+  <message name="CheckItemSubstitution_Result">
+    <part name="parameters" element="tns:CheckItemSubstitution_Result" />
+  </message>
+  <message name="TankAdj_NAV">
+    <part name="parameters" element="tns:TankAdj_NAV" />
+  </message>
+  <message name="TankAdj_NAV_Result">
+    <part name="parameters" element="tns:TankAdj_NAV_Result" />
+  </message>
+  <message name="CreateAdjJnl_NAV">
+    <part name="parameters" element="tns:CreateAdjJnl_NAV" />
+  </message>
+  <message name="CreateAdjJnl_NAV_Result">
+    <part name="parameters" element="tns:CreateAdjJnl_NAV_Result" />
+  </message>
+  <message name="SubstituteItem">
+    <part name="parameters" element="tns:SubstituteItem" />
+  </message>
+  <message name="SubstituteItem_Result">
+    <part name="parameters" element="tns:SubstituteItem_Result" />
+  </message>
+  <message name="CreatSplitLineWhs2">
+    <part name="parameters" element="tns:CreatSplitLineWhs2" />
+  </message>
+  <message name="CreatSplitLineWhs2_Result">
+    <part name="parameters" element="tns:CreatSplitLineWhs2_Result" />
+  </message>
+  <message name="HandleSplitLine">
+    <part name="parameters" element="tns:HandleSplitLine" />
+  </message>
+  <message name="HandleSplitLine_Result">
+    <part name="parameters" element="tns:HandleSplitLine_Result" />
+  </message>
+  <message name="CheckInvPickQtyToHandle">
+    <part name="parameters" element="tns:CheckInvPickQtyToHandle" />
+  </message>
+  <message name="CheckInvPickQtyToHandle_Result">
+    <part name="parameters" element="tns:CheckInvPickQtyToHandle_Result" />
+  </message>
+  <message name="UpdateDeptTransferLine">
+    <part name="parameters" element="tns:UpdateDeptTransferLine" />
+  </message>
+  <message name="UpdateDeptTransferLine_Result">
+    <part name="parameters" element="tns:UpdateDeptTransferLine_Result" />
+  </message>
+  <message name="PostItemJournalLine_DEFAULT">
+    <part name="parameters" element="tns:PostItemJournalLine_DEFAULT" />
+  </message>
+  <message name="PostItemJournalLine_DEFAULT_Result">
+    <part name="parameters" element="tns:PostItemJournalLine_DEFAULT_Result" />
+  </message>
+  <message name="CombineInvtPick">
+    <part name="parameters" element="tns:CombineInvtPick" />
+  </message>
+  <message name="CombineInvtPick_Result">
+    <part name="parameters" element="tns:CombineInvtPick_Result" />
+  </message>
+  <message name="CheckBinContentInsert">
+    <part name="parameters" element="tns:CheckBinContentInsert" />
+  </message>
+  <message name="CheckBinContentInsert_Result">
+    <part name="parameters" element="tns:CheckBinContentInsert_Result" />
+  </message>
+  <message name="CheckBinContent_POAssignment">
+    <part name="parameters" element="tns:CheckBinContent_POAssignment" />
+  </message>
+  <message name="CheckBinContent_POAssignment_Result">
+    <part name="parameters" element="tns:CheckBinContent_POAssignment_Result" />
+  </message>
+  <message name="CheckDuplicateTOLines">
+    <part name="parameters" element="tns:CheckDuplicateTOLines" />
+  </message>
+  <message name="CheckDuplicateTOLines_Result">
+    <part name="parameters" element="tns:CheckDuplicateTOLines_Result" />
+  </message>
+  <message name="UpdateSalesOrder">
+    <part name="parameters" element="tns:UpdateSalesOrder" />
+  </message>
+  <message name="UpdateSalesOrder_Result">
+    <part name="parameters" element="tns:UpdateSalesOrder_Result" />
+  </message>
+  <message name="CreateSalesLine">
+    <part name="parameters" element="tns:CreateSalesLine" />
+  </message>
+  <message name="CreateSalesLine_Result">
+    <part name="parameters" element="tns:CreateSalesLine_Result" />
+  </message>
+  <message name="GetSalesPrice">
+    <part name="parameters" element="tns:GetSalesPrice" />
+  </message>
+  <message name="GetSalesPrice_Result">
+    <part name="parameters" element="tns:GetSalesPrice_Result" />
+  </message>
+  <message name="CreateStaffDimOnPurchLine">
+    <part name="parameters" element="tns:CreateStaffDimOnPurchLine" />
+  </message>
+  <message name="CreateStaffDimOnPurchLine_Result">
+    <part name="parameters" element="tns:CreateStaffDimOnPurchLine_Result" />
+  </message>
+  <message name="ExternalVendor">
+    <part name="parameters" element="tns:ExternalVendor" />
+  </message>
+  <message name="ExternalVendor_Result">
+    <part name="parameters" element="tns:ExternalVendor_Result" />
+  </message>
+  <message name="CombineInvtPutAway">
+    <part name="parameters" element="tns:CombineInvtPutAway" />
+  </message>
+  <message name="CombineInvtPutAway_Result">
+    <part name="parameters" element="tns:CombineInvtPutAway_Result" />
+  </message>
+  <message name="ClearBinContent_POAssignment">
+    <part name="parameters" element="tns:ClearBinContent_POAssignment" />
+  </message>
+  <message name="ClearBinContent_POAssignment_Result">
+    <part name="parameters" element="tns:ClearBinContent_POAssignment_Result" />
+  </message>
+  <message name="CheckBinContent2">
+    <part name="parameters" element="tns:CheckBinContent2" />
+  </message>
+  <message name="CheckBinContent2_Result">
+    <part name="parameters" element="tns:CheckBinContent2_Result" />
+  </message>
+  <message name="BinContentInfo">
+    <part name="parameters" element="tns:BinContentInfo" />
+  </message>
+  <message name="BinContentInfo_Result">
+    <part name="parameters" element="tns:BinContentInfo_Result" />
+  </message>
+  <message name="CompareDate">
+    <part name="parameters" element="tns:CompareDate" />
+  </message>
+  <message name="CompareDate_Result">
+    <part name="parameters" element="tns:CompareDate_Result" />
+  </message>
+  <message name="ScanTObyFromBin">
+    <part name="parameters" element="tns:ScanTObyFromBin" />
+  </message>
+  <message name="ScanTObyFromBin_Result">
+    <part name="parameters" element="tns:ScanTObyFromBin_Result" />
+  </message>
+  <message name="CheckDummyBin">
+    <part name="parameters" element="tns:CheckDummyBin" />
+  </message>
+  <message name="CheckDummyBin_Result">
+    <part name="parameters" element="tns:CheckDummyBin_Result" />
+  </message>
+  <message name="CheckDummyBinSameItem">
+    <part name="parameters" element="tns:CheckDummyBinSameItem" />
+  </message>
+  <message name="CheckDummyBinSameItem_Result">
+    <part name="parameters" element="tns:CheckDummyBinSameItem_Result" />
+  </message>
+  <portType name="QH_Functions_Port">
+    <operation name="PostSaleOrder">
+      <input name="PostSaleOrder" message="tns:PostSaleOrder" />
+      <output name="PostSaleOrder_Result" message="tns:PostSaleOrder_Result" />
+    </operation>
+    <operation name="PostPurchaseOrder">
+      <input name="PostPurchaseOrder" message="tns:PostPurchaseOrder" />
+      <output name="PostPurchaseOrder_Result" message="tns:PostPurchaseOrder_Result" />
+    </operation>
+    <operation name="PostTrasferOrder">
+      <input name="PostTrasferOrder" message="tns:PostTrasferOrder" />
+      <output name="PostTrasferOrder_Result" message="tns:PostTrasferOrder_Result" />
+    </operation>
+    <operation name="PostItemJournalLine">
+      <input name="PostItemJournalLine" message="tns:PostItemJournalLine" />
+      <output name="PostItemJournalLine_Result" message="tns:PostItemJournalLine_Result" />
+    </operation>
+    <operation name="PostItemJournalLineNeg">
+      <input name="PostItemJournalLineNeg" message="tns:PostItemJournalLineNeg" />
+      <output name="PostItemJournalLineNeg_Result" message="tns:PostItemJournalLineNeg_Result" />
+    </operation>
+    <operation name="CreatSplitLineWhs">
+      <input name="CreatSplitLineWhs" message="tns:CreatSplitLineWhs" />
+      <output name="CreatSplitLineWhs_Result" message="tns:CreatSplitLineWhs_Result" />
+    </operation>
+    <operation name="PostItemJournalReClassic">
+      <input name="PostItemJournalReClassic" message="tns:PostItemJournalReClassic" />
+      <output name="PostItemJournalReClassic_Result" message="tns:PostItemJournalReClassic_Result" />
+    </operation>
+    <operation name="ReleasePO">
+      <input name="ReleasePO" message="tns:ReleasePO" />
+      <output name="ReleasePO_Result" message="tns:ReleasePO_Result" />
+    </operation>
+    <operation name="PostReceiveInventoryPutAway">
+      <input name="PostReceiveInventoryPutAway" message="tns:PostReceiveInventoryPutAway" />
+      <output name="PostReceiveInventoryPutAway_Result" message="tns:PostReceiveInventoryPutAway_Result" />
+    </operation>
+    <operation name="UpdateDepItemJournal">
+      <input name="UpdateDepItemJournal" message="tns:UpdateDepItemJournal" />
+      <output name="UpdateDepItemJournal_Result" message="tns:UpdateDepItemJournal_Result" />
+    </operation>
+    <operation name="CreateInvPick">
+      <input name="CreateInvPick" message="tns:CreateInvPick" />
+      <output name="CreateInvPick_Result" message="tns:CreateInvPick_Result" />
+    </operation>
+    <operation name="CreateInvPickHeader">
+      <input name="CreateInvPickHeader" message="tns:CreateInvPickHeader" />
+      <output name="CreateInvPickHeader_Result" message="tns:CreateInvPickHeader_Result" />
+    </operation>
+    <operation name="CreateInvPickLine">
+      <input name="CreateInvPickLine" message="tns:CreateInvPickLine" />
+      <output name="CreateInvPickLine_Result" message="tns:CreateInvPickLine_Result" />
+    </operation>
+    <operation name="CreateWHRequestOUT">
+      <input name="CreateWHRequestOUT" message="tns:CreateWHRequestOUT" />
+      <output name="CreateWHRequestOUT_Result" message="tns:CreateWHRequestOUT_Result" />
+    </operation>
+    <operation name="GetEmptyBin">
+      <input name="GetEmptyBin" message="tns:GetEmptyBin" />
+      <output name="GetEmptyBin_Result" message="tns:GetEmptyBin_Result" />
+    </operation>
+    <operation name="UpdateDepItemReclassicJournal">
+      <input name="UpdateDepItemReclassicJournal" message="tns:UpdateDepItemReclassicJournal" />
+      <output name="UpdateDepItemReclassicJournal_Result" message="tns:UpdateDepItemReclassicJournal_Result" />
+    </operation>
+    <operation name="CreateInvPutAwayTransferOrder">
+      <input name="CreateInvPutAwayTransferOrder" message="tns:CreateInvPutAwayTransferOrder" />
+      <output name="CreateInvPutAwayTransferOrder_Result" message="tns:CreateInvPutAwayTransferOrder_Result" />
+    </operation>
+    <operation name="CreateInvPutAwayHeader">
+      <input name="CreateInvPutAwayHeader" message="tns:CreateInvPutAwayHeader" />
+      <output name="CreateInvPutAwayHeader_Result" message="tns:CreateInvPutAwayHeader_Result" />
+    </operation>
+    <operation name="CreateInvPutAwayLine">
+      <input name="CreateInvPutAwayLine" message="tns:CreateInvPutAwayLine" />
+      <output name="CreateInvPutAwayLine_Result" message="tns:CreateInvPutAwayLine_Result" />
+    </operation>
+    <operation name="CreateWHRequestIN">
+      <input name="CreateWHRequestIN" message="tns:CreateWHRequestIN" />
+      <output name="CreateWHRequestIN_Result" message="tns:CreateWHRequestIN_Result" />
+    </operation>
+    <operation name="CreateInvPickTransferOrder">
+      <input name="CreateInvPickTransferOrder" message="tns:CreateInvPickTransferOrder" />
+      <output name="CreateInvPickTransferOrder_Result" message="tns:CreateInvPickTransferOrder_Result" />
+    </operation>
+    <operation name="PostInventoryPick">
+      <input name="PostInventoryPick" message="tns:PostInventoryPick" />
+      <output name="PostInventoryPick_Result" message="tns:PostInventoryPick_Result" />
+    </operation>
+    <operation name="ReleaseTO">
+      <input name="ReleaseTO" message="tns:ReleaseTO" />
+      <output name="ReleaseTO_Result" message="tns:ReleaseTO_Result" />
+    </operation>
+    <operation name="DocDimension">
+      <input name="DocDimension" message="tns:DocDimension" />
+      <output name="DocDimension_Result" message="tns:DocDimension_Result" />
+    </operation>
+    <operation name="GetBinContentAvalBin">
+      <input name="GetBinContentAvalBin" message="tns:GetBinContentAvalBin" />
+      <output name="GetBinContentAvalBin_Result" message="tns:GetBinContentAvalBin_Result" />
+    </operation>
+    <operation name="GetStockTakeLastLineNo">
+      <input name="GetStockTakeLastLineNo" message="tns:GetStockTakeLastLineNo" />
+      <output name="GetStockTakeLastLineNo_Result" message="tns:GetStockTakeLastLineNo_Result" />
+    </operation>
+    <operation name="CheckBinContent">
+      <input name="CheckBinContent" message="tns:CheckBinContent" />
+      <output name="CheckBinContent_Result" message="tns:CheckBinContent_Result" />
+    </operation>
+    <operation name="GetBarcodePOPick">
+      <input name="GetBarcodePOPick" message="tns:GetBarcodePOPick" />
+      <output name="GetBarcodePOPick_Result" message="tns:GetBarcodePOPick_Result" />
+    </operation>
+    <operation name="InsertIJLPositiveAdjustment">
+      <input name="InsertIJLPositiveAdjustment" message="tns:InsertIJLPositiveAdjustment" />
+      <output name="InsertIJLPositiveAdjustment_Result" message="tns:InsertIJLPositiveAdjustment_Result" />
+    </operation>
+    <operation name="InsertIJLNegativeAdjustment">
+      <input name="InsertIJLNegativeAdjustment" message="tns:InsertIJLNegativeAdjustment" />
+      <output name="InsertIJLNegativeAdjustment_Result" message="tns:InsertIJLNegativeAdjustment_Result" />
+    </operation>
+    <operation name="CheckItemSubstitution">
+      <input name="CheckItemSubstitution" message="tns:CheckItemSubstitution" />
+      <output name="CheckItemSubstitution_Result" message="tns:CheckItemSubstitution_Result" />
+    </operation>
+    <operation name="TankAdj_NAV">
+      <input name="TankAdj_NAV" message="tns:TankAdj_NAV" />
+      <output name="TankAdj_NAV_Result" message="tns:TankAdj_NAV_Result" />
+    </operation>
+    <operation name="CreateAdjJnl_NAV">
+      <input name="CreateAdjJnl_NAV" message="tns:CreateAdjJnl_NAV" />
+      <output name="CreateAdjJnl_NAV_Result" message="tns:CreateAdjJnl_NAV_Result" />
+    </operation>
+    <operation name="SubstituteItem">
+      <input name="SubstituteItem" message="tns:SubstituteItem" />
+      <output name="SubstituteItem_Result" message="tns:SubstituteItem_Result" />
+    </operation>
+    <operation name="CreatSplitLineWhs2">
+      <input name="CreatSplitLineWhs2" message="tns:CreatSplitLineWhs2" />
+      <output name="CreatSplitLineWhs2_Result" message="tns:CreatSplitLineWhs2_Result" />
+    </operation>
+    <operation name="HandleSplitLine">
+      <input name="HandleSplitLine" message="tns:HandleSplitLine" />
+      <output name="HandleSplitLine_Result" message="tns:HandleSplitLine_Result" />
+    </operation>
+    <operation name="CheckInvPickQtyToHandle">
+      <input name="CheckInvPickQtyToHandle" message="tns:CheckInvPickQtyToHandle" />
+      <output name="CheckInvPickQtyToHandle_Result" message="tns:CheckInvPickQtyToHandle_Result" />
+    </operation>
+    <operation name="UpdateDeptTransferLine">
+      <input name="UpdateDeptTransferLine" message="tns:UpdateDeptTransferLine" />
+      <output name="UpdateDeptTransferLine_Result" message="tns:UpdateDeptTransferLine_Result" />
+    </operation>
+    <operation name="PostItemJournalLine_DEFAULT">
+      <input name="PostItemJournalLine_DEFAULT" message="tns:PostItemJournalLine_DEFAULT" />
+      <output name="PostItemJournalLine_DEFAULT_Result" message="tns:PostItemJournalLine_DEFAULT_Result" />
+    </operation>
+    <operation name="CombineInvtPick">
+      <input name="CombineInvtPick" message="tns:CombineInvtPick" />
+      <output name="CombineInvtPick_Result" message="tns:CombineInvtPick_Result" />
+    </operation>
+    <operation name="CheckBinContentInsert">
+      <input name="CheckBinContentInsert" message="tns:CheckBinContentInsert" />
+      <output name="CheckBinContentInsert_Result" message="tns:CheckBinContentInsert_Result" />
+    </operation>
+    <operation name="CheckBinContent_POAssignment">
+      <input name="CheckBinContent_POAssignment" message="tns:CheckBinContent_POAssignment" />
+      <output name="CheckBinContent_POAssignment_Result" message="tns:CheckBinContent_POAssignment_Result" />
+    </operation>
+    <operation name="CheckDuplicateTOLines">
+      <input name="CheckDuplicateTOLines" message="tns:CheckDuplicateTOLines" />
+      <output name="CheckDuplicateTOLines_Result" message="tns:CheckDuplicateTOLines_Result" />
+    </operation>
+    <operation name="UpdateSalesOrder">
+      <input name="UpdateSalesOrder" message="tns:UpdateSalesOrder" />
+      <output name="UpdateSalesOrder_Result" message="tns:UpdateSalesOrder_Result" />
+    </operation>
+    <operation name="CreateSalesLine">
+      <input name="CreateSalesLine" message="tns:CreateSalesLine" />
+      <output name="CreateSalesLine_Result" message="tns:CreateSalesLine_Result" />
+    </operation>
+    <operation name="GetSalesPrice">
+      <input name="GetSalesPrice" message="tns:GetSalesPrice" />
+      <output name="GetSalesPrice_Result" message="tns:GetSalesPrice_Result" />
+    </operation>
+    <operation name="CreateStaffDimOnPurchLine">
+      <input name="CreateStaffDimOnPurchLine" message="tns:CreateStaffDimOnPurchLine" />
+      <output name="CreateStaffDimOnPurchLine_Result" message="tns:CreateStaffDimOnPurchLine_Result" />
+    </operation>
+    <operation name="ExternalVendor">
+      <input name="ExternalVendor" message="tns:ExternalVendor" />
+      <output name="ExternalVendor_Result" message="tns:ExternalVendor_Result" />
+    </operation>
+    <operation name="CombineInvtPutAway">
+      <input name="CombineInvtPutAway" message="tns:CombineInvtPutAway" />
+      <output name="CombineInvtPutAway_Result" message="tns:CombineInvtPutAway_Result" />
+    </operation>
+    <operation name="ClearBinContent_POAssignment">
+      <input name="ClearBinContent_POAssignment" message="tns:ClearBinContent_POAssignment" />
+      <output name="ClearBinContent_POAssignment_Result" message="tns:ClearBinContent_POAssignment_Result" />
+    </operation>
+    <operation name="CheckBinContent2">
+      <input name="CheckBinContent2" message="tns:CheckBinContent2" />
+      <output name="CheckBinContent2_Result" message="tns:CheckBinContent2_Result" />
+    </operation>
+    <operation name="BinContentInfo">
+      <input name="BinContentInfo" message="tns:BinContentInfo" />
+      <output name="BinContentInfo_Result" message="tns:BinContentInfo_Result" />
+    </operation>
+    <operation name="CompareDate">
+      <input name="CompareDate" message="tns:CompareDate" />
+      <output name="CompareDate_Result" message="tns:CompareDate_Result" />
+    </operation>
+    <operation name="ScanTObyFromBin">
+      <input name="ScanTObyFromBin" message="tns:ScanTObyFromBin" />
+      <output name="ScanTObyFromBin_Result" message="tns:ScanTObyFromBin_Result" />
+    </operation>
+    <operation name="CheckDummyBin">
+      <input name="CheckDummyBin" message="tns:CheckDummyBin" />
+      <output name="CheckDummyBin_Result" message="tns:CheckDummyBin_Result" />
+    </operation>
+    <operation name="CheckDummyBinSameItem">
+      <input name="CheckDummyBinSameItem" message="tns:CheckDummyBinSameItem" />
+      <output name="CheckDummyBinSameItem_Result" message="tns:CheckDummyBinSameItem_Result" />
+    </operation>
+  </portType>
+  <binding name="QH_Functions_Binding" type="tns:QH_Functions_Port">
+    <binding transport="http://schemas.xmlsoap.org/soap/http" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    <operation name="PostSaleOrder">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:PostSaleOrder" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="PostSaleOrder">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="PostSaleOrder_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="PostPurchaseOrder">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:PostPurchaseOrder" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="PostPurchaseOrder">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="PostPurchaseOrder_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="PostTrasferOrder">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:PostTrasferOrder" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="PostTrasferOrder">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="PostTrasferOrder_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="PostItemJournalLine">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:PostItemJournalLine" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="PostItemJournalLine">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="PostItemJournalLine_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="PostItemJournalLineNeg">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:PostItemJournalLineNeg" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="PostItemJournalLineNeg">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="PostItemJournalLineNeg_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="CreatSplitLineWhs">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:CreatSplitLineWhs" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="CreatSplitLineWhs">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="CreatSplitLineWhs_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="PostItemJournalReClassic">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:PostItemJournalReClassic" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="PostItemJournalReClassic">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="PostItemJournalReClassic_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="ReleasePO">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:ReleasePO" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="ReleasePO">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="ReleasePO_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="PostReceiveInventoryPutAway">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:PostReceiveInventoryPutAway" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="PostReceiveInventoryPutAway">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="PostReceiveInventoryPutAway_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="UpdateDepItemJournal">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:UpdateDepItemJournal" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="UpdateDepItemJournal">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="UpdateDepItemJournal_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="CreateInvPick">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:CreateInvPick" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="CreateInvPick">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="CreateInvPick_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="CreateInvPickHeader">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:CreateInvPickHeader" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="CreateInvPickHeader">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="CreateInvPickHeader_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="CreateInvPickLine">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:CreateInvPickLine" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="CreateInvPickLine">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="CreateInvPickLine_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="CreateWHRequestOUT">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:CreateWHRequestOUT" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="CreateWHRequestOUT">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="CreateWHRequestOUT_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="GetEmptyBin">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:GetEmptyBin" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="GetEmptyBin">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="GetEmptyBin_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="UpdateDepItemReclassicJournal">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:UpdateDepItemReclassicJournal" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="UpdateDepItemReclassicJournal">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="UpdateDepItemReclassicJournal_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="CreateInvPutAwayTransferOrder">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:CreateInvPutAwayTransferOrder" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="CreateInvPutAwayTransferOrder">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="CreateInvPutAwayTransferOrder_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="CreateInvPutAwayHeader">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:CreateInvPutAwayHeader" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="CreateInvPutAwayHeader">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="CreateInvPutAwayHeader_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="CreateInvPutAwayLine">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:CreateInvPutAwayLine" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="CreateInvPutAwayLine">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="CreateInvPutAwayLine_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="CreateWHRequestIN">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:CreateWHRequestIN" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="CreateWHRequestIN">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="CreateWHRequestIN_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="CreateInvPickTransferOrder">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:CreateInvPickTransferOrder" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="CreateInvPickTransferOrder">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="CreateInvPickTransferOrder_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="PostInventoryPick">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:PostInventoryPick" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="PostInventoryPick">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="PostInventoryPick_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="ReleaseTO">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:ReleaseTO" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="ReleaseTO">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="ReleaseTO_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="DocDimension">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:DocDimension" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="DocDimension">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="DocDimension_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="GetBinContentAvalBin">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:GetBinContentAvalBin" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="GetBinContentAvalBin">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="GetBinContentAvalBin_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="GetStockTakeLastLineNo">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:GetStockTakeLastLineNo" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="GetStockTakeLastLineNo">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="GetStockTakeLastLineNo_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="CheckBinContent">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:CheckBinContent" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="CheckBinContent">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="CheckBinContent_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="GetBarcodePOPick">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:GetBarcodePOPick" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="GetBarcodePOPick">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="GetBarcodePOPick_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="InsertIJLPositiveAdjustment">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:InsertIJLPositiveAdjustment" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="InsertIJLPositiveAdjustment">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="InsertIJLPositiveAdjustment_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="InsertIJLNegativeAdjustment">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:InsertIJLNegativeAdjustment" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="InsertIJLNegativeAdjustment">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="InsertIJLNegativeAdjustment_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="CheckItemSubstitution">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:CheckItemSubstitution" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="CheckItemSubstitution">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="CheckItemSubstitution_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="TankAdj_NAV">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:TankAdj_NAV" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="TankAdj_NAV">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="TankAdj_NAV_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="CreateAdjJnl_NAV">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:CreateAdjJnl_NAV" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="CreateAdjJnl_NAV">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="CreateAdjJnl_NAV_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="SubstituteItem">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:SubstituteItem" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="SubstituteItem">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="SubstituteItem_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="CreatSplitLineWhs2">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:CreatSplitLineWhs2" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="CreatSplitLineWhs2">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="CreatSplitLineWhs2_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="HandleSplitLine">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:HandleSplitLine" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="HandleSplitLine">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="HandleSplitLine_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="CheckInvPickQtyToHandle">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:CheckInvPickQtyToHandle" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="CheckInvPickQtyToHandle">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="CheckInvPickQtyToHandle_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="UpdateDeptTransferLine">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:UpdateDeptTransferLine" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="UpdateDeptTransferLine">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="UpdateDeptTransferLine_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="PostItemJournalLine_DEFAULT">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:PostItemJournalLine_DEFAULT" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="PostItemJournalLine_DEFAULT">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="PostItemJournalLine_DEFAULT_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="CombineInvtPick">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:CombineInvtPick" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="CombineInvtPick">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="CombineInvtPick_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="CheckBinContentInsert">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:CheckBinContentInsert" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="CheckBinContentInsert">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="CheckBinContentInsert_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="CheckBinContent_POAssignment">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:CheckBinContent_POAssignment" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="CheckBinContent_POAssignment">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="CheckBinContent_POAssignment_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="CheckDuplicateTOLines">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:CheckDuplicateTOLines" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="CheckDuplicateTOLines">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="CheckDuplicateTOLines_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="UpdateSalesOrder">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:UpdateSalesOrder" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="UpdateSalesOrder">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="UpdateSalesOrder_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="CreateSalesLine">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:CreateSalesLine" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="CreateSalesLine">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="CreateSalesLine_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="GetSalesPrice">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:GetSalesPrice" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="GetSalesPrice">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="GetSalesPrice_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="CreateStaffDimOnPurchLine">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:CreateStaffDimOnPurchLine" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="CreateStaffDimOnPurchLine">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="CreateStaffDimOnPurchLine_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="ExternalVendor">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:ExternalVendor" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="ExternalVendor">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="ExternalVendor_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="CombineInvtPutAway">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:CombineInvtPutAway" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="CombineInvtPutAway">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="CombineInvtPutAway_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="ClearBinContent_POAssignment">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:ClearBinContent_POAssignment" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="ClearBinContent_POAssignment">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="ClearBinContent_POAssignment_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="CheckBinContent2">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:CheckBinContent2" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="CheckBinContent2">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="CheckBinContent2_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="BinContentInfo">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:BinContentInfo" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="BinContentInfo">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="BinContentInfo_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="CompareDate">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:CompareDate" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="CompareDate">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="CompareDate_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="ScanTObyFromBin">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:ScanTObyFromBin" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="ScanTObyFromBin">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="ScanTObyFromBin_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="CheckDummyBin">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:CheckDummyBin" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="CheckDummyBin">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="CheckDummyBin_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="CheckDummyBinSameItem">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/QH_Functions:CheckDummyBinSameItem" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="CheckDummyBinSameItem">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="CheckDummyBinSameItem_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+  </binding>
+  <service name="QH_Functions">
+    <port name="QH_Functions_Port" binding="tns:QH_Functions_Binding">
+      <address location="http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu%20Database/Codeunit/QH_Functions" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </port>
+  </service>
+</definitions>

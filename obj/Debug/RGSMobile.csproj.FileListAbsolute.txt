@@ -1,0 +1,133 @@
+D:\Office Projects\RGS\Mobile\RGSMobile\RGSMobile\bin\Debug\Data\RGSMobileDB.sdf
+D:\Office Projects\RGS\Mobile\RGSMobile\RGSMobile\bin\Debug\RGSMobile.exe
+D:\Office Projects\RGS\Mobile\RGSMobile\RGSMobile\bin\Debug\RGSMobile.pdb
+D:\Office Projects\RGS\Mobile\RGSMobile\RGSMobile\obj\Debug\ResolveAssemblyReference.cache
+D:\Office Projects\RGS\Mobile\RGSMobile\RGSMobile\obj\Debug\RGSMobile.frmGRN.resources
+D:\Office Projects\RGS\Mobile\RGSMobile\RGSMobile\obj\Debug\RGSMobile.frmSO.resources
+D:\Office Projects\RGS\Mobile\RGSMobile\RGSMobile\obj\Debug\RGSMobile.frmTR.resources
+D:\Office Projects\RGS\Mobile\RGSMobile\RGSMobile\obj\Debug\RGSMobile.frmLogin.resources
+D:\Office Projects\RGS\Mobile\RGSMobile\RGSMobile\obj\Debug\RGSMobile.frmMain.resources
+D:\Office Projects\RGS\Mobile\RGSMobile\RGSMobile\obj\Debug\RGSMobile.Properties.Resources.resources
+D:\Office Projects\RGS\Mobile\RGSMobile\RGSMobile\obj\Debug\RGSMobile.frmSetting.resources
+D:\Office Projects\RGS\Mobile\RGSMobile\RGSMobile\obj\Debug\RGSMobile.csproj.GenerateResource.Cache
+D:\Office Projects\RGS\Mobile\RGSMobile\RGSMobile\obj\Debug\RGSMobile.exe
+D:\Office Projects\RGS\Mobile\RGSMobile\RGSMobile\obj\Debug\RGSMobile.pdb
+D:\OFFICE PROJECTS\RGS\RGSMobile\obj\Debug\ResolveAssemblyReference.cache
+D:\OFFICE PROJECTS\RGS\RGSMobile\obj\Debug\RGSMobile.frmGRN.resources
+D:\OFFICE PROJECTS\RGS\RGSMobile\obj\Debug\RGSMobile.frmTR.resources
+D:\OFFICE PROJECTS\RGS\RGSMobile\obj\Debug\RGSMobile.frmLogin.resources
+D:\OFFICE PROJECTS\RGS\RGSMobile\obj\Debug\RGSMobile.frmMain.resources
+D:\OFFICE PROJECTS\RGS\RGSMobile\obj\Debug\RGSMobile.Properties.Resources.resources
+D:\OFFICE PROJECTS\RGS\RGSMobile\obj\Debug\RGSMobile.frmSetting.resources
+D:\OFFICE PROJECTS\RGS\RGSMobile\obj\Debug\RGSMobile.csproj.GenerateResource.Cache
+D:\OFFICE PROJECTS\RGS\RGSMobile\obj\Debug\RGSMobile.exe
+D:\OFFICE PROJECTS\RGS\RGSMobile\obj\Debug\RGSMobile.pdb
+D:\OFFICE PROJECTS\RGS\RGSMobile\bin\Debug\Data\RGSMobileDB.sdf
+D:\OFFICE PROJECTS\RGS\RGSMobile\bin\Debug\RGSMobile.exe
+D:\OFFICE PROJECTS\RGS\RGSMobile\bin\Debug\RGSMobile.pdb
+C:\Documents and Settings\thu\Desktop\RGSMobile\RGSMobile\bin\Debug\Data\RGSMobileDB.sdf
+C:\Documents and Settings\thu\Desktop\RGSMobile\RGSMobile\bin\Debug\RGSMobile.exe
+C:\Documents and Settings\thu\Desktop\RGSMobile\RGSMobile\bin\Debug\RGSMobile.pdb
+C:\Documents and Settings\thu\Desktop\RGSMobile\RGSMobile\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\thu\Desktop\RGSMobile\RGSMobile\obj\Debug\RGSMobile.frmGRN.resources
+C:\Documents and Settings\thu\Desktop\RGSMobile\RGSMobile\obj\Debug\RGSMobile.frmSO.resources
+C:\Documents and Settings\thu\Desktop\RGSMobile\RGSMobile\obj\Debug\RGSMobile.frmTR.resources
+C:\Documents and Settings\thu\Desktop\RGSMobile\RGSMobile\obj\Debug\RGSMobile.frmLogin.resources
+C:\Documents and Settings\thu\Desktop\RGSMobile\RGSMobile\obj\Debug\RGSMobile.frmMain.resources
+C:\Documents and Settings\thu\Desktop\RGSMobile\RGSMobile\obj\Debug\RGSMobile.Properties.Resources.resources
+C:\Documents and Settings\thu\Desktop\RGSMobile\RGSMobile\obj\Debug\RGSMobile.frmSetting.resources
+C:\Documents and Settings\thu\Desktop\RGSMobile\RGSMobile\obj\Debug\RGSMobile.csproj.GenerateResource.Cache
+C:\Documents and Settings\thu\Desktop\RGSMobile\RGSMobile\obj\Debug\RGSMobile.exe
+C:\Documents and Settings\thu\Desktop\RGSMobile\RGSMobile\obj\Debug\RGSMobile.pdb
+D:\OFFICE PROJECTS\RGS\RGSMobile\RGSMobile\RGSMobile\bin\Debug\Data\RGSMobileDB.sdf
+D:\OFFICE PROJECTS\RGS\RGSMobile\RGSMobile\RGSMobile\bin\Debug\RGSMobile.exe
+D:\OFFICE PROJECTS\RGS\RGSMobile\RGSMobile\RGSMobile\bin\Debug\RGSMobile.pdb
+D:\OFFICE PROJECTS\RGS\RGSMobile\RGSMobile\RGSMobile\obj\Debug\ResolveAssemblyReference.cache
+D:\OFFICE PROJECTS\RGS\RGSMobile\RGSMobile\RGSMobile\obj\Debug\RGSMobile.frmGRN.resources
+D:\OFFICE PROJECTS\RGS\RGSMobile\RGSMobile\RGSMobile\obj\Debug\RGSMobile.frmTR.resources
+D:\OFFICE PROJECTS\RGS\RGSMobile\RGSMobile\RGSMobile\obj\Debug\RGSMobile.frmLogin.resources
+D:\OFFICE PROJECTS\RGS\RGSMobile\RGSMobile\RGSMobile\obj\Debug\RGSMobile.frmMain.resources
+D:\OFFICE PROJECTS\RGS\RGSMobile\RGSMobile\RGSMobile\obj\Debug\RGSMobile.Properties.Resources.resources
+D:\OFFICE PROJECTS\RGS\RGSMobile\RGSMobile\RGSMobile\obj\Debug\RGSMobile.frmSetting.resources
+D:\OFFICE PROJECTS\RGS\RGSMobile\RGSMobile\RGSMobile\obj\Debug\RGSMobile.csproj.GenerateResource.Cache
+D:\OFFICE PROJECTS\RGS\RGSMobile\RGSMobile\RGSMobile\obj\Debug\RGSMobile.exe
+D:\OFFICE PROJECTS\RGS\RGSMobile\RGSMobile\RGSMobile\obj\Debug\RGSMobile.pdb
+D:\OFFICE PROJECTS\RGS\RGSMobile\RGSMobile\RGSMobile\obj\Debug\RGSMobile.frmToReceive.resources
+D:\OFFICE PROJECTS\RGS\RGSMobile\RGSMobile\RGSMobile\obj\Debug\RGSMobile.frmSOscan.resources
+C:\Documents and Settings\thu\Desktop\RGSMobile\bin\Debug\Data\RGSMobileDB.sdf
+C:\Documents and Settings\thu\Desktop\RGSMobile\bin\Debug\RGSMobile.exe
+C:\Documents and Settings\thu\Desktop\RGSMobile\bin\Debug\RGSMobile.pdb
+C:\Documents and Settings\thu\Desktop\RGSMobile\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\thu\Desktop\RGSMobile\obj\Debug\RGSMobile.frmSOscan.resources
+C:\Documents and Settings\thu\Desktop\RGSMobile\obj\Debug\RGSMobile.frmToReceive.resources
+C:\Documents and Settings\thu\Desktop\RGSMobile\obj\Debug\RGSMobile.frmGRN.resources
+C:\Documents and Settings\thu\Desktop\RGSMobile\obj\Debug\RGSMobile.frmTR.resources
+C:\Documents and Settings\thu\Desktop\RGSMobile\obj\Debug\RGSMobile.frmLogin.resources
+C:\Documents and Settings\thu\Desktop\RGSMobile\obj\Debug\RGSMobile.frmMain.resources
+C:\Documents and Settings\thu\Desktop\RGSMobile\obj\Debug\RGSMobile.Properties.Resources.resources
+C:\Documents and Settings\thu\Desktop\RGSMobile\obj\Debug\RGSMobile.frmSetting.resources
+C:\Documents and Settings\thu\Desktop\RGSMobile\obj\Debug\RGSMobile.csproj.GenerateResource.Cache
+C:\Documents and Settings\thu\Desktop\RGSMobile\obj\Debug\RGSMobile.exe
+C:\Documents and Settings\thu\Desktop\RGSMobile\obj\Debug\RGSMobile.pdb
+D:\OFFICE PROJECTS\RGS\RGSMobile\obj\Debug\RGSMobile.frmSOscan.resources
+D:\OFFICE PROJECTS\RGS\RGSMobile\obj\Debug\RGSMobile.frmToReceive.resources
+D:\Office Projects\RGS\RGSMobile IDA\bin\Debug\Data\RGSMobileDB.sdf
+D:\Office Projects\RGS\RGSMobile IDA\bin\Debug\RGSMobile.exe
+D:\Office Projects\RGS\RGSMobile IDA\bin\Debug\RGSMobile.pdb
+D:\Office Projects\RGS\RGSMobile IDA\obj\Debug\ResolveAssemblyReference.cache
+D:\Office Projects\RGS\RGSMobile IDA\obj\Debug\RGSMobile.frmSOscan.resources
+D:\Office Projects\RGS\RGSMobile IDA\obj\Debug\RGSMobile.frmToReceive.resources
+D:\Office Projects\RGS\RGSMobile IDA\obj\Debug\RGSMobile.frmGRN.resources
+D:\Office Projects\RGS\RGSMobile IDA\obj\Debug\RGSMobile.frmTR.resources
+D:\Office Projects\RGS\RGSMobile IDA\obj\Debug\RGSMobile.frmLogin.resources
+D:\Office Projects\RGS\RGSMobile IDA\obj\Debug\RGSMobile.frmMain.resources
+D:\Office Projects\RGS\RGSMobile IDA\obj\Debug\RGSMobile.Properties.Resources.resources
+D:\Office Projects\RGS\RGSMobile IDA\obj\Debug\RGSMobile.frmSetting.resources
+D:\Office Projects\RGS\RGSMobile IDA\obj\Debug\RGSMobile.csproj.GenerateResource.Cache
+D:\Office Projects\RGS\RGSMobile IDA\obj\Debug\RGSMobile.exe
+D:\Office Projects\RGS\RGSMobile IDA\obj\Debug\RGSMobile.pdb
+D:\OFFICE PROJECTS\RGS\RGSMobileIDA\bin\Debug\Data\RGSMobileDB.sdf
+D:\OFFICE PROJECTS\RGS\RGSMobileIDA\bin\Debug\RGSMobile.exe
+D:\OFFICE PROJECTS\RGS\RGSMobileIDA\bin\Debug\RGSMobile.pdb
+D:\OFFICE PROJECTS\RGS\RGSMobileIDA\obj\Debug\ResolveAssemblyReference.cache
+D:\OFFICE PROJECTS\RGS\RGSMobileIDA\obj\Debug\RGSMobile.frmSOscan.resources
+D:\OFFICE PROJECTS\RGS\RGSMobileIDA\obj\Debug\RGSMobile.frmToReceive.resources
+D:\OFFICE PROJECTS\RGS\RGSMobileIDA\obj\Debug\RGSMobile.frmGRN.resources
+D:\OFFICE PROJECTS\RGS\RGSMobileIDA\obj\Debug\RGSMobile.frmTR.resources
+D:\OFFICE PROJECTS\RGS\RGSMobileIDA\obj\Debug\RGSMobile.frmLogin.resources
+D:\OFFICE PROJECTS\RGS\RGSMobileIDA\obj\Debug\RGSMobile.frmMain.resources
+D:\OFFICE PROJECTS\RGS\RGSMobileIDA\obj\Debug\RGSMobile.Properties.Resources.resources
+D:\OFFICE PROJECTS\RGS\RGSMobileIDA\obj\Debug\RGSMobile.frmSetting.resources
+D:\OFFICE PROJECTS\RGS\RGSMobileIDA\obj\Debug\RGSMobile.csproj.GenerateResource.Cache
+D:\OFFICE PROJECTS\RGS\RGSMobileIDA\obj\Debug\RGSMobile.exe
+D:\OFFICE PROJECTS\RGS\RGSMobileIDA\obj\Debug\RGSMobile.pdb
+D:\Office Projects\RGS\Mike IDA\RGSMobileIDA\bin\Debug\Data\RGSMobileDB.sdf
+D:\Office Projects\RGS\Mike IDA\RGSMobileIDA\bin\Debug\RGSMobile.exe
+D:\Office Projects\RGS\Mike IDA\RGSMobileIDA\bin\Debug\RGSMobile.pdb
+D:\Office Projects\RGS\Mike IDA\RGSMobileIDA\obj\Debug\ResolveAssemblyReference.cache
+D:\Office Projects\RGS\Mike IDA\RGSMobileIDA\obj\Debug\RGSMobile.frmSOscan.resources
+D:\Office Projects\RGS\Mike IDA\RGSMobileIDA\obj\Debug\RGSMobile.frmToReceive.resources
+D:\Office Projects\RGS\Mike IDA\RGSMobileIDA\obj\Debug\RGSMobile.frmGRN.resources
+D:\Office Projects\RGS\Mike IDA\RGSMobileIDA\obj\Debug\RGSMobile.frmTR.resources
+D:\Office Projects\RGS\Mike IDA\RGSMobileIDA\obj\Debug\RGSMobile.frmLogin.resources
+D:\Office Projects\RGS\Mike IDA\RGSMobileIDA\obj\Debug\RGSMobile.frmMain.resources
+D:\Office Projects\RGS\Mike IDA\RGSMobileIDA\obj\Debug\RGSMobile.Properties.Resources.resources
+D:\Office Projects\RGS\Mike IDA\RGSMobileIDA\obj\Debug\RGSMobile.frmSetting.resources
+D:\Office Projects\RGS\Mike IDA\RGSMobileIDA\obj\Debug\RGSMobile.csproj.GenerateResource.Cache
+D:\Office Projects\RGS\Mike IDA\RGSMobileIDA\obj\Debug\RGSMobile.exe
+D:\Office Projects\RGS\Mike IDA\RGSMobileIDA\obj\Debug\RGSMobile.pdb
+D:\OFFICE PROJECTS\RGS\RGSMobileIDA _DPservice_\obj\Debug\ResolveAssemblyReference.cache
+D:\OFFICE PROJECTS\RGS\RGSMobileIDA _DPservice_\obj\Debug\RGSMobile.frmSOscan.resources
+D:\OFFICE PROJECTS\RGS\RGSMobileIDA _DPservice_\obj\Debug\RGSMobile.frmToReceive.resources
+D:\OFFICE PROJECTS\RGS\RGSMobileIDA _DPservice_\obj\Debug\RGSMobile.frmGRN.resources
+D:\OFFICE PROJECTS\RGS\RGSMobileIDA _DPservice_\obj\Debug\RGSMobile.frmTR.resources
+D:\OFFICE PROJECTS\RGS\RGSMobileIDA _DPservice_\obj\Debug\RGSMobile.frmLogin.resources
+D:\OFFICE PROJECTS\RGS\RGSMobileIDA _DPservice_\obj\Debug\RGSMobile.frmMain.resources
+D:\OFFICE PROJECTS\RGS\RGSMobileIDA _DPservice_\obj\Debug\RGSMobile.Properties.Resources.resources
+D:\OFFICE PROJECTS\RGS\RGSMobileIDA _DPservice_\obj\Debug\RGSMobile.frmSetting.resources
+D:\OFFICE PROJECTS\RGS\RGSMobileIDA _DPservice_\obj\Debug\RGSMobile.csproj.GenerateResource.Cache
+D:\OFFICE PROJECTS\RGS\RGSMobileIDA _DPservice_\obj\Debug\RGSMobile.exe
+D:\OFFICE PROJECTS\RGS\RGSMobileIDA _DPservice_\bin\Debug\Data\RGSMobileDB.sdf
+D:\OFFICE PROJECTS\RGS\RGSMobileIDA _DPservice_\bin\Debug\RGSMobile.exe
+D:\OFFICE PROJECTS\RGS\RGSMobileIDA _DPservice_\bin\Debug\RGSMobile.pdb
+D:\OFFICE PROJECTS\RGS\RGSMobileIDA _DPservice_\obj\Debug\RGSMobile.pdb

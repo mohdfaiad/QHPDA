@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <Servicepassword></Servicepassword>
+<remUser>hsu</remUser>
+<remPassword>hsu</remPassword>
+  <userName>admin</userName>
+  <password>bingo28*</password>
+  <domain>dptech</domain>
+  <ServiceUser>admin</ServiceUser>
+  <PDAName>PDA100</PDAName>
+  <Serviceurl>http://dpmaster:7047/DynamicsNAVQH/WS/Services</Serviceurl>
+  <Company>RGS Enterprise (UAT)</Company>
+  <UsersQH>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu%20Database/Page/UsersQH</UsersQH>
+  <WhseLineQH>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu%20Database/Page/WhseLineQH</WhseLineQH>
+  <BinQH>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu%20Database/Page/BinQH</BinQH>
+  <ItemJournalDailyLossQH>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu%20Database/Page/ItemJournalDailyLossQH</ItemJournalDailyLossQH>
+  <ItemJournalQH>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu%20Database/Page/ItemJournalQH</ItemJournalQH>
+  <ItemQH>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu%20Database/Page/ItemQH</ItemQH>
+  <PurchaseQH>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu%20Database/Page/PurchaseQH</PurchaseQH>
+  <PutAlwaysLinesQH>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu%20Database/Page/PutAlwaysLinesQH</PutAlwaysLinesQH>
+  <PutAlwaysQH>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu%20Database/Page/PutAlwaysQH</PutAlwaysQH>
+  <QH_Location>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu%20Database/Page/QH_Location</QH_Location>
+  <QHBinContent>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu%20Database/Page/QHBinContent</QHBinContent>
+  <IventoryPick>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu%20Database/Page/IventoryPick</IventoryPick>
+  <StockTakeWS>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu%20Database/Page/StockTakeWS</StockTakeWS>
+  <TransferOrderLineQH>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu%20Database/Page/TransferOrderLineQH</TransferOrderLineQH>
+  <TransferOrderQH>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu%20Database/Page/TransferOrderQH</TransferOrderQH>
+	<QH_Functions>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu%20Database/Codeunit/QH_Functions</QH_Functions>
+  <VendorListQH>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu%20Database/Page/VendorListQH</VendorListQH>
+  <WarehouseRequestQH>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu%20Database/Page/WarehouseRequestQH</WarehouseRequestQH>
+	<SaleOrderQH>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu%20Database/Page/SaleOrderQH</SaleOrderQH>
+  <QHEmptyTank>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu%20Database/Page/QHEmptyTank</QHEmptyTank>
+  <PostedTransferShipmentQH>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu%20Database/Page/PostedTransferShipmentQH</PostedTransferShipmentQH>
+  <QHDummyBin>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu%20Database/Page/QHDummyBin</QHDummyBin>
+  <QHItemJournalLine>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu%20Database/Page/QHItemJournalLine</QHItemJournalLine>
+  <QHWarehouseEntry>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu%20Database/Page/QHWarehouseEntry</QHWarehouseEntry>
+  <QHSalesReceivableSetup>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu%20Database/Page/QHSalesReceivableSetup</QHSalesReceivableSetup>
+</config>

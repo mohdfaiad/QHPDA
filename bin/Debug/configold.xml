@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <Servicepassword></Servicepassword>
+  <userName>admin</userName>
+  <password>bingo28</password>
+  <domain>dptech</domain>
+	<ServiceUser>admin</ServiceUser>
+	
+	<Serviceurl>http://dpmaster:7047/DynamicsNAVQH/WS/Services</Serviceurl>
+	<Company>RGS Enterprise (UAT)</Company>
+  <UsersQH>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu/Page/UsersQH</UsersQH>
+  <WhseLineQH>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu/Page/WhseLineQH</WhseLineQH>
+  <BinQH>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu/Page/BinQH</BinQH>
+  <ItemJournalDailyLossQH>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu/Page/ItemJournalDailyLossQH</ItemJournalDailyLossQH>
+  <ItemJournalQH>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu/Page/ItemJournalQH</ItemJournalQH>
+  <ItemQH>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu/Page/ItemQH</ItemQH>
+  <PurchaseQH>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu/Page/PurchaseQH</PurchaseQH>
+  <PutAlwaysLinesQH>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu/Page/PutAlwaysLinesQH</PutAlwaysLinesQH>
+  <PutAlwaysQH>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu/Page/PutAlwaysQH</PutAlwaysQH>
+  <QH_Location>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu/Page/QH_Location</QH_Location>
+  <QHBinContent>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu/Page/QHBinContent</QHBinContent>
+  <QHIventoryPick>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu/Page/QHIventoryPick</QHIventoryPick>
+  <StockTakeWS>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu/Page/StockTakeWS</StockTakeWS>
+  <TransferOrderLineQH>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu/Page/TransferOrderLineQH</TransferOrderLineQH>
+  <TransferOrderQH>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu/Page/TransferOrderQH</TransferOrderQH>
+	<QH_Functions>http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu/Codeunit/QH_Functions</QH_Functions>
+
+</config>

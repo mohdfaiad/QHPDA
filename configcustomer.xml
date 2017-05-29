@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+<remUser>qhqs01</remUser>
+	<remPassword>12345</remPassword>
+  <Servicepassword></Servicepassword>
+  <userName>adminnas</userName>
+  <password>qh@71</password>
+  <domain>QIANHU-NAV1</domain>
+	<ServiceUser>adminnas</ServiceUser>
+	
+	<Serviceurl>http://10.1.1.72:7047/DynamicsNAV/WS/Qian%20Hu%20Database/services</Serviceurl>
+	<Company>RGS Enterprise (UAT)</Company>
+  <UsersQH>http://10.1.1.72:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/UsersQH</UsersQH>
+  <WhseLineQH>http://10.1.1.72:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/WhseLineQH</WhseLineQH>
+  <BinQH>http://10.1.1.72:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/BinQH</BinQH>
+  <ItemJournalDailyLossQH>http://10.1.1.72:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/ItemJournalDailyLossQH</ItemJournalDailyLossQH>
+  <ItemJournalQH>http://10.1.1.72:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/ItemJournalQH</ItemJournalQH>
+  <ItemQH>http://10.1.1.72:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/ItemQH</ItemQH>
+  <PurchaseQH>http://10.1.1.72:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/PurchaseQH</PurchaseQH>
+  <PutAlwaysLinesQH>http://10.1.1.72:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/PutAlwaysLinesQH</PutAlwaysLinesQH>
+  <PutAlwaysQH>http://10.1.1.72:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/PutAlwaysQH</PutAlwaysQH>
+  <QH_Location>http://10.1.1.72:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/QH_Location</QH_Location>
+  <QHBinContent>http://10.1.1.72:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/QHBinContent</QHBinContent>
+  <IventoryPick>http://10.1.1.72:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/IventoryPick</IventoryPick>
+  <StockTakeWS>http://10.1.1.72:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/StockTakeWS</StockTakeWS>
+  <TransferOrderLineQH>http://10.1.1.72:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/TransferOrderLineQH</TransferOrderLineQH>
+  <TransferOrderQH>http://10.1.1.72:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/TransferOrderQH</TransferOrderQH>
+  <VendorListQH>http://10.1.1.72:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/VendorListQH</VendorListQH> 	
+  <WarehouseRequestQH>http://10.1.1.72:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/WarehouseRequestQH</WarehouseRequestQH>
+  <QH_Functions>http://10.1.1.72:7047/DynamicsNAV/WS/Qian Hu Database/Codeunit/QH_Functions</QH_Functions>
+  <SaleOrderQH>http://10.1.1.72:7047/DynamicsNAV/WS/Qian%20Hu%20Database/Page/SaleOrderQH</SaleOrderQH>
+</config>

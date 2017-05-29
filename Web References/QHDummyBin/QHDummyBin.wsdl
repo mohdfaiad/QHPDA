@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:tns="urn:microsoft-dynamics-schemas/page/qhdummybin" targetNamespace="urn:microsoft-dynamics-schemas/page/qhdummybin" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema elementFormDefault="qualified" targetNamespace="urn:microsoft-dynamics-schemas/page/qhdummybin" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <xsd:simpleType name="Discount_Posting">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="No_Discounts" />
+          <xsd:enumeration value="Invoice_Discounts" />
+          <xsd:enumeration value="Line_Discounts" />
+          <xsd:enumeration value="All_Discounts" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="Credit_Warnings">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="Both_Warnings" />
+          <xsd:enumeration value="Credit_Limit" />
+          <xsd:enumeration value="Overdue_Balance" />
+          <xsd:enumeration value="No_Warning" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="Appln_between_Currencies">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="None" />
+          <xsd:enumeration value="EMU" />
+          <xsd:enumeration value="All" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="Logo_Position_on_Documents">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="No_Logo" />
+          <xsd:enumeration value="Left" />
+          <xsd:enumeration value="Center" />
+          <xsd:enumeration value="Right" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="Default_Posting_Date">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="Work_Date" />
+          <xsd:enumeration value="No_Date" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="Default_Quantity_to_Ship">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="Remainder" />
+          <xsd:enumeration value="Blank" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="Components_on_Sales_Orders">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="Show" />
+          <xsd:enumeration value="Do_Not_Show" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="Components_on_Shipments">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="Show" />
+          <xsd:enumeration value="Do_Not_Show" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="Components_on_Invoices">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="Show" />
+          <xsd:enumeration value="Do_Not_Show" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="QHDummyBin">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="Key" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Discount_Posting" type="tns:Discount_Posting" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Credit_Warnings" type="tns:Credit_Warnings" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Stockout_Warning" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Shipment_on_Invoice" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Return_Receipt_on_Credit_Memo" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Invoice_Rounding" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Ext_Doc_No_Mandatory" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Appln_between_Currencies" type="tns:Appln_between_Currencies" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Logo_Position_on_Documents" type="tns:Logo_Position_on_Documents" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Default_Posting_Date" type="tns:Default_Posting_Date" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Default_Quantity_to_Ship" type="tns:Default_Quantity_to_Ship" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Copy_Comments_Blanket_to_Order" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Copy_Comments_Order_to_Invoice" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Copy_Comments_Order_to_Shpt" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Copy_Cmts_Ret_Ord_to_Cr_Memo" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Copy_Cmts_Ret_Ord_to_Ret_Rcpt" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Allow_VAT_Difference" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Calc_Inv_Discount" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Calc_Inv_Disc_per_VAT_ID" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Exact_Cost_Reversing_Mandatory" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Check_Prepmt_when_Posting" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Archive_Quotes_and_Orders" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Dummy_Bin" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Dummy_Location" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Customer_Group_Dimension_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Salesperson_Dimension_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Customer_Nos" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Quote_Nos" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Blanket_Order_Nos" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Order_Nos" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Return_Order_Nos" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Invoice_Nos" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Posted_Invoice_Nos" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Credit_Memo_Nos" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Posted_Credit_Memo_Nos" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Posted_Shipment_Nos" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Posted_Return_Receipt_Nos" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Reminder_Nos" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Issued_Reminder_Nos" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Fin_Chrg_Memo_Nos" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Issued_Fin_Chrg_M_Nos" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Posted_Prepmt_Inv_Nos" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Posted_Prepmt_Cr_Memo_Nos" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Print_WHT_on_Credit_Memo" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Print_Dialog" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Payment_Discount_Reason_Code" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Posted_Tax_Invoice_Nos" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Posted_Tax_Credit_Memo_Nos" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Posted_Non_Tax_Invoice_Nos" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Posted_Non_Tax_Credit_Memo_Nos" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Post_Dated_Check_Template" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Post_Dated_Check_Batch" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Incl_PDC_in_Cr_Limit_Check" type="xsd:boolean" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Components_on_Sales_Orders" type="tns:Components_on_Sales_Orders" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Components_on_Shipments" type="tns:Components_on_Shipments" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="Components_on_Invoices" type="tns:Components_on_Invoices" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="QHDummyBin_List">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="unbounded" name="QHDummyBin" type="tns:QHDummyBin" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="QHDummyBin_Fields">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="Discount_Posting" />
+          <xsd:enumeration value="Credit_Warnings" />
+          <xsd:enumeration value="Stockout_Warning" />
+          <xsd:enumeration value="Shipment_on_Invoice" />
+          <xsd:enumeration value="Return_Receipt_on_Credit_Memo" />
+          <xsd:enumeration value="Invoice_Rounding" />
+          <xsd:enumeration value="Ext_Doc_No_Mandatory" />
+          <xsd:enumeration value="Appln_between_Currencies" />
+          <xsd:enumeration value="Logo_Position_on_Documents" />
+          <xsd:enumeration value="Default_Posting_Date" />
+          <xsd:enumeration value="Default_Quantity_to_Ship" />
+          <xsd:enumeration value="Copy_Comments_Blanket_to_Order" />
+          <xsd:enumeration value="Copy_Comments_Order_to_Invoice" />
+          <xsd:enumeration value="Copy_Comments_Order_to_Shpt" />
+          <xsd:enumeration value="Copy_Cmts_Ret_Ord_to_Cr_Memo" />
+          <xsd:enumeration value="Copy_Cmts_Ret_Ord_to_Ret_Rcpt" />
+          <xsd:enumeration value="Allow_VAT_Difference" />
+          <xsd:enumeration value="Calc_Inv_Discount" />
+          <xsd:enumeration value="Calc_Inv_Disc_per_VAT_ID" />
+          <xsd:enumeration value="Exact_Cost_Reversing_Mandatory" />
+          <xsd:enumeration value="Check_Prepmt_when_Posting" />
+          <xsd:enumeration value="Archive_Quotes_and_Orders" />
+          <xsd:enumeration value="Dummy_Bin" />
+          <xsd:enumeration value="Dummy_Location" />
+          <xsd:enumeration value="Customer_Group_Dimension_Code" />
+          <xsd:enumeration value="Salesperson_Dimension_Code" />
+          <xsd:enumeration value="Customer_Nos" />
+          <xsd:enumeration value="Quote_Nos" />
+          <xsd:enumeration value="Blanket_Order_Nos" />
+          <xsd:enumeration value="Order_Nos" />
+          <xsd:enumeration value="Return_Order_Nos" />
+          <xsd:enumeration value="Invoice_Nos" />
+          <xsd:enumeration value="Posted_Invoice_Nos" />
+          <xsd:enumeration value="Credit_Memo_Nos" />
+          <xsd:enumeration value="Posted_Credit_Memo_Nos" />
+          <xsd:enumeration value="Posted_Shipment_Nos" />
+          <xsd:enumeration value="Posted_Return_Receipt_Nos" />
+          <xsd:enumeration value="Reminder_Nos" />
+          <xsd:enumeration value="Issued_Reminder_Nos" />
+          <xsd:enumeration value="Fin_Chrg_Memo_Nos" />
+          <xsd:enumeration value="Issued_Fin_Chrg_M_Nos" />
+          <xsd:enumeration value="Posted_Prepmt_Inv_Nos" />
+          <xsd:enumeration value="Posted_Prepmt_Cr_Memo_Nos" />
+          <xsd:enumeration value="Print_WHT_on_Credit_Memo" />
+          <xsd:enumeration value="Print_Dialog" />
+          <xsd:enumeration value="Payment_Discount_Reason_Code" />
+          <xsd:enumeration value="Posted_Tax_Invoice_Nos" />
+          <xsd:enumeration value="Posted_Tax_Credit_Memo_Nos" />
+          <xsd:enumeration value="Posted_Non_Tax_Invoice_Nos" />
+          <xsd:enumeration value="Posted_Non_Tax_Credit_Memo_Nos" />
+          <xsd:enumeration value="Post_Dated_Check_Template" />
+          <xsd:enumeration value="Post_Dated_Check_Batch" />
+          <xsd:enumeration value="Incl_PDC_in_Cr_Limit_Check" />
+          <xsd:enumeration value="Components_on_Sales_Orders" />
+          <xsd:enumeration value="Components_on_Shipments" />
+          <xsd:enumeration value="Components_on_Invoices" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="QHDummyBin_Filter">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="Field" type="tns:QHDummyBin_Fields" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Criteria" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="ReadByRecId">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="recId" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ReadByRecId_Result">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="1" name="QHDummyBin" type="tns:QHDummyBin" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ReadMultiple">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="unbounded" name="filter" type="tns:QHDummyBin_Filter" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="bookmarkKey" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="setSize" type="xsd:int" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ReadMultiple_Result">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="1" name="ReadMultiple_Result" type="tns:QHDummyBin_List" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="IsUpdated">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="Key" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="IsUpdated_Result">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="IsUpdated_Result" type="xsd:boolean" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetRecIdFromKey">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="Key" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetRecIdFromKey_Result">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="GetRecIdFromKey_Result" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Update">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="QHDummyBin" type="tns:QHDummyBin" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Update_Result">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="QHDummyBin" type="tns:QHDummyBin" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="UpdateMultiple">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="QHDummyBin_List" type="tns:QHDummyBin_List" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="UpdateMultiple_Result">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="QHDummyBin_List" type="tns:QHDummyBin_List" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </types>
+  <message name="ReadByRecId">
+    <part name="parameters" element="tns:ReadByRecId" />
+  </message>
+  <message name="ReadByRecId_Result">
+    <part name="parameters" element="tns:ReadByRecId_Result" />
+  </message>
+  <message name="ReadMultiple">
+    <part name="parameters" element="tns:ReadMultiple" />
+  </message>
+  <message name="ReadMultiple_Result">
+    <part name="parameters" element="tns:ReadMultiple_Result" />
+  </message>
+  <message name="IsUpdated">
+    <part name="parameters" element="tns:IsUpdated" />
+  </message>
+  <message name="IsUpdated_Result">
+    <part name="parameters" element="tns:IsUpdated_Result" />
+  </message>
+  <message name="GetRecIdFromKey">
+    <part name="parameters" element="tns:GetRecIdFromKey" />
+  </message>
+  <message name="GetRecIdFromKey_Result">
+    <part name="parameters" element="tns:GetRecIdFromKey_Result" />
+  </message>
+  <message name="Update">
+    <part name="parameters" element="tns:Update" />
+  </message>
+  <message name="Update_Result">
+    <part name="parameters" element="tns:Update_Result" />
+  </message>
+  <message name="UpdateMultiple">
+    <part name="parameters" element="tns:UpdateMultiple" />
+  </message>
+  <message name="UpdateMultiple_Result">
+    <part name="parameters" element="tns:UpdateMultiple_Result" />
+  </message>
+  <portType name="QHDummyBin_Port">
+    <operation name="ReadByRecId">
+      <input name="ReadByRecId" message="tns:ReadByRecId" />
+      <output name="ReadByRecId_Result" message="tns:ReadByRecId_Result" />
+    </operation>
+    <operation name="ReadMultiple">
+      <input name="ReadMultiple" message="tns:ReadMultiple" />
+      <output name="ReadMultiple_Result" message="tns:ReadMultiple_Result" />
+    </operation>
+    <operation name="IsUpdated">
+      <input name="IsUpdated" message="tns:IsUpdated" />
+      <output name="IsUpdated_Result" message="tns:IsUpdated_Result" />
+    </operation>
+    <operation name="GetRecIdFromKey">
+      <input name="GetRecIdFromKey" message="tns:GetRecIdFromKey" />
+      <output name="GetRecIdFromKey_Result" message="tns:GetRecIdFromKey_Result" />
+    </operation>
+    <operation name="Update">
+      <input name="Update" message="tns:Update" />
+      <output name="Update_Result" message="tns:Update_Result" />
+    </operation>
+    <operation name="UpdateMultiple">
+      <input name="UpdateMultiple" message="tns:UpdateMultiple" />
+      <output name="UpdateMultiple_Result" message="tns:UpdateMultiple_Result" />
+    </operation>
+  </portType>
+  <binding name="QHDummyBin_Binding" type="tns:QHDummyBin_Port">
+    <binding transport="http://schemas.xmlsoap.org/soap/http" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    <operation name="ReadByRecId">
+      <operation soapAction="urn:microsoft-dynamics-schemas/page/qhdummybin:ReadByRecId" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="ReadByRecId">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="ReadByRecId_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="ReadMultiple">
+      <operation soapAction="urn:microsoft-dynamics-schemas/page/qhdummybin:ReadMultiple" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="ReadMultiple">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="ReadMultiple_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="IsUpdated">
+      <operation soapAction="urn:microsoft-dynamics-schemas/page/qhdummybin:IsUpdated" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="IsUpdated">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="IsUpdated_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="GetRecIdFromKey">
+      <operation soapAction="urn:microsoft-dynamics-schemas/page/qhdummybin:GetRecIdFromKey" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="GetRecIdFromKey">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="GetRecIdFromKey_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="Update">
+      <operation soapAction="urn:microsoft-dynamics-schemas/page/qhdummybin:Update" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="Update">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="Update_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="UpdateMultiple">
+      <operation soapAction="urn:microsoft-dynamics-schemas/page/qhdummybin:UpdateMultiple" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="UpdateMultiple">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="UpdateMultiple_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+  </binding>
+  <service name="QHDummyBin_Service">
+    <port name="QHDummyBin_Port" binding="tns:QHDummyBin_Binding">
+      <address location="http://dpmaster.dptech.local:7045/DynamicsNAVQH/WS/Qian%20Hu/Page/QHDummyBin" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </port>
+  </service>
+</definitions>

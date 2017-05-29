@@ -1,0 +1,412 @@
+D:\OFFICE PROJECTS\QH\PDA Scanning\PDA Scanning\bin\Debug\Data\RGSMobileDB.sdf
+D:\OFFICE PROJECTS\QH\PDA Scanning\PDA Scanning\bin\Debug\RGSMobile.exe
+D:\OFFICE PROJECTS\QH\PDA Scanning\PDA Scanning\bin\Debug\RGSMobile.pdb
+D:\OFFICE PROJECTS\QH\PDA Scanning\PDA Scanning\obj\Debug\ResolveAssemblyReference.cache
+D:\OFFICE PROJECTS\QH\PDA Scanning\PDA Scanning\obj\Debug\RGSMobile.frmSOscan.resources
+D:\OFFICE PROJECTS\QH\PDA Scanning\PDA Scanning\obj\Debug\RGSMobile.frmToReceive.resources
+D:\OFFICE PROJECTS\QH\PDA Scanning\PDA Scanning\obj\Debug\RGSMobile.frmTR.resources
+D:\OFFICE PROJECTS\QH\PDA Scanning\PDA Scanning\obj\Debug\RGSMobile.frmLogin.resources
+D:\OFFICE PROJECTS\QH\PDA Scanning\PDA Scanning\obj\Debug\RGSMobile.frmMain.resources
+D:\OFFICE PROJECTS\QH\PDA Scanning\PDA Scanning\obj\Debug\RGSMobile.Properties.Resources.resources
+D:\OFFICE PROJECTS\QH\PDA Scanning\PDA Scanning\obj\Debug\RGSMobile.frmSetting.resources
+D:\OFFICE PROJECTS\QH\PDA Scanning\PDA Scanning\obj\Debug\PDAScanning.csproj.GenerateResource.Cache
+D:\OFFICE PROJECTS\QH\PDA Scanning\PDA Scanning\obj\Debug\RGSMobile.exe
+D:\OFFICE PROJECTS\QH\PDA Scanning\PDA Scanning\obj\Debug\RGSMobile.pdb
+D:\OFFICE PROJECTS\QH\PDA Scanning\PDA Scanning\obj\Debug\RGSMobile.StockTake.resources
+D:\work space\PDA Scanning\PDA Scanning\bin\Debug\Data\RGSMobileDB.sdf
+D:\work space\PDA Scanning\PDA Scanning\bin\Debug\RGSMobile.exe
+D:\work space\PDA Scanning\PDA Scanning\bin\Debug\RGSMobile.pdb
+D:\work space\PDA Scanning\PDA Scanning\obj\Debug\ResolveAssemblyReference.cache
+D:\work space\PDA Scanning\PDA Scanning\obj\Debug\RGSMobile.frmSOscan.resources
+D:\work space\PDA Scanning\PDA Scanning\obj\Debug\RGSMobile.frmToReceive.resources
+D:\work space\PDA Scanning\PDA Scanning\obj\Debug\RGSMobile.StockTake.resources
+D:\work space\PDA Scanning\PDA Scanning\obj\Debug\RGSMobile.frmTR.resources
+D:\work space\PDA Scanning\PDA Scanning\obj\Debug\RGSMobile.frmLogin.resources
+D:\work space\PDA Scanning\PDA Scanning\obj\Debug\RGSMobile.frmMain.resources
+D:\work space\PDA Scanning\PDA Scanning\obj\Debug\RGSMobile.Properties.Resources.resources
+D:\work space\PDA Scanning\PDA Scanning\obj\Debug\RGSMobile.frmSetting.resources
+D:\work space\PDA Scanning\PDA Scanning\obj\Debug\PDAScanning.csproj.GenerateResource.Cache
+D:\work space\PDA Scanning\PDA Scanning\obj\Debug\RGSMobile.exe
+D:\work space\PDA Scanning\PDA Scanning\obj\Debug\RGSMobile.pdb
+D:\work space\PDA Scanning\PDA Scanning\obj\Debug\RGSMobile.DailyLoss.resources
+D:\work space\PDA Scanning\PDA Scanning\obj\Debug\RGSMobile.TO.resources
+D:\work space\PDA Scanning\PDA Scanning\obj\Debug\RGSMobile.PickingSlip.resources
+D:\OFFICE PROJECTS\QH\PDA Scanning Hsu\PDA Scanning\bin\Debug\Data\RGSMobileDB.sdf
+D:\OFFICE PROJECTS\QH\PDA Scanning Hsu\PDA Scanning\bin\Debug\RGSMobile.exe
+D:\OFFICE PROJECTS\QH\PDA Scanning Hsu\PDA Scanning\bin\Debug\RGSMobile.pdb
+D:\OFFICE PROJECTS\QH\PDA Scanning Hsu\PDA Scanning\obj\Debug\ResolveAssemblyReference.cache
+D:\OFFICE PROJECTS\QH\PDA Scanning Hsu\PDA Scanning\obj\Debug\RGSMobile.PickingSlip.resources
+D:\OFFICE PROJECTS\QH\PDA Scanning Hsu\PDA Scanning\obj\Debug\RGSMobile.TO.resources
+D:\OFFICE PROJECTS\QH\PDA Scanning Hsu\PDA Scanning\obj\Debug\RGSMobile.DailyLoss.resources
+D:\OFFICE PROJECTS\QH\PDA Scanning Hsu\PDA Scanning\obj\Debug\RGSMobile.frmSOscan.resources
+D:\OFFICE PROJECTS\QH\PDA Scanning Hsu\PDA Scanning\obj\Debug\RGSMobile.frmToReceive.resources
+D:\OFFICE PROJECTS\QH\PDA Scanning Hsu\PDA Scanning\obj\Debug\RGSMobile.StockTake.resources
+D:\OFFICE PROJECTS\QH\PDA Scanning Hsu\PDA Scanning\obj\Debug\RGSMobile.frmTR.resources
+D:\OFFICE PROJECTS\QH\PDA Scanning Hsu\PDA Scanning\obj\Debug\RGSMobile.frmLogin.resources
+D:\OFFICE PROJECTS\QH\PDA Scanning Hsu\PDA Scanning\obj\Debug\RGSMobile.frmMain.resources
+D:\OFFICE PROJECTS\QH\PDA Scanning Hsu\PDA Scanning\obj\Debug\RGSMobile.Properties.Resources.resources
+D:\OFFICE PROJECTS\QH\PDA Scanning Hsu\PDA Scanning\obj\Debug\RGSMobile.frmSetting.resources
+D:\OFFICE PROJECTS\QH\PDA Scanning Hsu\PDA Scanning\obj\Debug\PDAScanning.csproj.GenerateResource.Cache
+D:\OFFICE PROJECTS\QH\PDA Scanning Hsu\PDA Scanning\obj\Debug\RGSMobile.exe
+D:\OFFICE PROJECTS\QH\PDA Scanning Hsu\PDA Scanning\obj\Debug\RGSMobile.pdb
+D:\OFFICE PROJECTS\QH\PDA Scanning Hsu\PDA Scanning\obj\Debug\RGSMobile.PickSlip.resources
+D:\OFFICE PROJECTS\QH\PDA Scanning Hsu\PDA Scanning\obj\Debug\RGSMobile.POAssignBin.resources
+C:\Documents and Settings\thu\Desktop\PDA Scanning\bin\Debug\Data\RGSMobileDB.sdf
+C:\Documents and Settings\thu\Desktop\PDA Scanning\bin\Debug\RGSMobile.exe
+C:\Documents and Settings\thu\Desktop\PDA Scanning\bin\Debug\RGSMobile.pdb
+C:\Documents and Settings\thu\Desktop\PDA Scanning\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\thu\Desktop\PDA Scanning\obj\Debug\RGSMobile.POAssignBin.resources
+C:\Documents and Settings\thu\Desktop\PDA Scanning\obj\Debug\RGSMobile.PickSlip.resources
+C:\Documents and Settings\thu\Desktop\PDA Scanning\obj\Debug\RGSMobile.PickingSlip.resources
+C:\Documents and Settings\thu\Desktop\PDA Scanning\obj\Debug\RGSMobile.frmSetting.resources
+C:\Documents and Settings\thu\Desktop\PDA Scanning\obj\Debug\RGSMobile.TO.resources
+C:\Documents and Settings\thu\Desktop\PDA Scanning\obj\Debug\RGSMobile.DailyLoss.resources
+C:\Documents and Settings\thu\Desktop\PDA Scanning\obj\Debug\RGSMobile.frmSOscan.resources
+C:\Documents and Settings\thu\Desktop\PDA Scanning\obj\Debug\RGSMobile.frmToReceive.resources
+C:\Documents and Settings\thu\Desktop\PDA Scanning\obj\Debug\RGSMobile.StockTake.resources
+C:\Documents and Settings\thu\Desktop\PDA Scanning\obj\Debug\RGSMobile.frmTR.resources
+C:\Documents and Settings\thu\Desktop\PDA Scanning\obj\Debug\RGSMobile.frmLogin.resources
+C:\Documents and Settings\thu\Desktop\PDA Scanning\obj\Debug\RGSMobile.frmMain.resources
+C:\Documents and Settings\thu\Desktop\PDA Scanning\obj\Debug\RGSMobile.Properties.Resources.resources
+C:\Documents and Settings\thu\Desktop\PDA Scanning\obj\Debug\PDAScanning.csproj.GenerateResource.Cache
+C:\Documents and Settings\thu\Desktop\PDA Scanning\obj\Debug\RGSMobile.exe
+C:\Documents and Settings\thu\Desktop\PDA Scanning\obj\Debug\RGSMobile.pdb
+D:\workspace\PDA Scanning Thu\obj\Debug\ResolveAssemblyReference.cache
+D:\workspace\PDA Scanning Thu\obj\Debug\RGSMobile.DailyLossTS.resources
+D:\workspace\PDA Scanning Thu\obj\Debug\RGSMobile.Location.resources
+D:\workspace\PDA Scanning Thu\obj\Debug\RGSMobile.POAssignBin.resources
+D:\workspace\PDA Scanning Thu\obj\Debug\RGSMobile.frmSetting.resources
+D:\workspace\PDA Scanning Thu\obj\Debug\RGSMobile.DailyLoss.resources
+D:\workspace\PDA Scanning Thu\obj\Debug\RGSMobile.StockTake.resources
+D:\workspace\PDA Scanning Thu\obj\Debug\RGSMobile.frmLogin.resources
+D:\workspace\PDA Scanning Thu\obj\Debug\RGSMobile.frmMain.resources
+D:\workspace\PDA Scanning Thu\obj\Debug\RGSMobile.Properties.Resources.resources
+D:\workspace\PDA Scanning Thu\obj\Debug\PDAScanning.csproj.GenerateResource.Cache
+D:\workspace\PDA Scanning Thu\obj\Debug\RGSMobile.TransferOrder.resources
+D:\workspace\PDA Scanning Thu\obj\Debug\RGSMobile.CreateTO.resources
+D:\workspace\PDA Scanning Thu\obj\Debug\RGSMobile.MainScreen.resources
+D:\workspace\PDA Scanning Thu\bin\Debug\QHMobile.exe
+D:\workspace\PDA Scanning Thu\bin\Debug\QHMobile.pdb
+D:\workspace\PDA Scanning Thu\obj\Debug\QHMobile.exe
+D:\workspace\PDA Scanning Thu\obj\Debug\QHMobile.pdb
+D:\workspace\PDA Scanning Thu\bin\Debug\Data\QHDatabase.sdf
+D:\workspace\PDA Scanning Thu\obj\Debug\RGSMobile.POAssignBinList.resources
+D:\workspace\PDA Scanning Thu\obj\Debug\RGSMobile.PickQH.resources
+D:\workspace\PDA Scanning Thu\obj\Debug\RGSMobile.DailyLPost.resources
+T:\Office Work\Development\QH\fro Hsu\PDA Scanning Thu\bin\Debug\Data\QHDatabase.sdf
+T:\Office Work\Development\QH\fro Hsu\PDA Scanning Thu\bin\Debug\QHMobile.exe
+T:\Office Work\Development\QH\fro Hsu\PDA Scanning Thu\bin\Debug\QHMobile.pdb
+T:\Office Work\Development\QH\fro Hsu\PDA Scanning Thu\obj\Debug\ResolveAssemblyReference.cache
+T:\Office Work\Development\QH\fro Hsu\PDA Scanning Thu\obj\Debug\PDAScanning.csproj.GenerateResource.Cache
+T:\Office Work\Development\QH\fro Hsu\PDA Scanning Thu\obj\Debug\QHMobile.exe
+T:\Office Work\Development\QH\fro Hsu\PDA Scanning Thu\obj\Debug\QHMobile.pdb
+T:\Office Work\Development\QH\fro Hsu\PDA Scanning Thu\obj\Debug\QHMobile.DailyLossTS.resources
+T:\Office Work\Development\QH\fro Hsu\PDA Scanning Thu\obj\Debug\QHMobile.DailyLPost.resources
+T:\Office Work\Development\QH\fro Hsu\PDA Scanning Thu\obj\Debug\QHMobile.Location.resources
+T:\Office Work\Development\QH\fro Hsu\PDA Scanning Thu\obj\Debug\QHMobile.MainScreen.resources
+T:\Office Work\Development\QH\fro Hsu\PDA Scanning Thu\obj\Debug\QHMobile.PickQH.resources
+T:\Office Work\Development\QH\fro Hsu\PDA Scanning Thu\obj\Debug\QHMobile.POAssignBin.resources
+T:\Office Work\Development\QH\fro Hsu\PDA Scanning Thu\obj\Debug\QHMobile.POAssignBinList.resources
+T:\Office Work\Development\QH\fro Hsu\PDA Scanning Thu\obj\Debug\QHMobile.frmSetting.resources
+T:\Office Work\Development\QH\fro Hsu\PDA Scanning Thu\obj\Debug\QHMobile.TransferOrder.resources
+T:\Office Work\Development\QH\fro Hsu\PDA Scanning Thu\obj\Debug\QHMobile.DailyLoss.resources
+T:\Office Work\Development\QH\fro Hsu\PDA Scanning Thu\obj\Debug\QHMobile.StockTake.resources
+T:\Office Work\Development\QH\fro Hsu\PDA Scanning Thu\obj\Debug\QHMobile.CreateTO.resources
+T:\Office Work\Development\QH\fro Hsu\PDA Scanning Thu\obj\Debug\QHMobile.frmLogin.resources
+T:\Office Work\Development\QH\fro Hsu\PDA Scanning Thu\obj\Debug\QHMobile.frmMain.resources
+T:\Office Work\Development\QH\fro Hsu\PDA Scanning Thu\obj\Debug\QHMobile.Properties.Resources.resources
+D:\workspace\06092012 PDA\PDA Scanning Thu\bin\Debug\QHMobile.sdf
+D:\workspace\06092012 PDA\PDA Scanning Thu\bin\Debug\Data\QHDatabase.sdf
+D:\workspace\06092012 PDA\PDA Scanning Thu\bin\Debug\QHMobile.exe
+D:\workspace\06092012 PDA\PDA Scanning Thu\bin\Debug\QHMobile.pdb
+D:\workspace\06092012 PDA\PDA Scanning Thu\obj\Debug\ResolveAssemblyReference.cache
+D:\workspace\06092012 PDA\PDA Scanning Thu\obj\Debug\QHMobile.DailyLossTS.resources
+D:\workspace\06092012 PDA\PDA Scanning Thu\obj\Debug\QHMobile.DailyLPost.resources
+D:\workspace\06092012 PDA\PDA Scanning Thu\obj\Debug\QHMobile.ItemLists.resources
+D:\workspace\06092012 PDA\PDA Scanning Thu\obj\Debug\QHMobile.Location.resources
+D:\workspace\06092012 PDA\PDA Scanning Thu\obj\Debug\QHMobile.MainScreen.resources
+D:\workspace\06092012 PDA\PDA Scanning Thu\obj\Debug\QHMobile.PickQH.resources
+D:\workspace\06092012 PDA\PDA Scanning Thu\obj\Debug\QHMobile.POAssignBin.resources
+D:\workspace\06092012 PDA\PDA Scanning Thu\obj\Debug\QHMobile.POAssignBinList.resources
+D:\workspace\06092012 PDA\PDA Scanning Thu\obj\Debug\QHMobile.PurChaseOrder.resources
+D:\workspace\06092012 PDA\PDA Scanning Thu\obj\Debug\QHMobile.frmSetting.resources
+D:\workspace\06092012 PDA\PDA Scanning Thu\obj\Debug\QHMobile.TransferOrder.resources
+D:\workspace\06092012 PDA\PDA Scanning Thu\obj\Debug\QHMobile.DailyLoss.resources
+D:\workspace\06092012 PDA\PDA Scanning Thu\obj\Debug\QHMobile.StockTake.resources
+D:\workspace\06092012 PDA\PDA Scanning Thu\obj\Debug\QHMobile.CreateTO.resources
+D:\workspace\06092012 PDA\PDA Scanning Thu\obj\Debug\QHMobile.frmLogin.resources
+D:\workspace\06092012 PDA\PDA Scanning Thu\obj\Debug\QHMobile.frmMain.resources
+D:\workspace\06092012 PDA\PDA Scanning Thu\obj\Debug\QHMobile.Properties.Resources.resources
+D:\workspace\06092012 PDA\PDA Scanning Thu\obj\Debug\QHMobile.VendorList.resources
+D:\workspace\06092012 PDA\PDA Scanning Thu\obj\Debug\PDAScanning.csproj.GenerateResource.Cache
+D:\workspace\06092012 PDA\PDA Scanning Thu\obj\Debug\QHMobile.exe
+D:\workspace\06092012 PDA\PDA Scanning Thu\obj\Debug\QHMobile.pdb
+T:\Office Work\PDA Scanning Thu\bin\Debug\QHMobile.sdf
+T:\Office Work\PDA Scanning Thu\bin\Debug\Data\QHDatabase.sdf
+T:\Office Work\PDA Scanning Thu\bin\Debug\QHMobile.exe
+T:\Office Work\PDA Scanning Thu\bin\Debug\QHMobile.pdb
+T:\Office Work\PDA Scanning Thu\obj\Debug\ResolveAssemblyReference.cache
+T:\Office Work\PDA Scanning Thu\obj\Debug\QHMobile.DailyLossTS.resources
+T:\Office Work\PDA Scanning Thu\obj\Debug\QHMobile.DailyLPost.resources
+T:\Office Work\PDA Scanning Thu\obj\Debug\QHMobile.ItemLists.resources
+T:\Office Work\PDA Scanning Thu\obj\Debug\QHMobile.Location.resources
+T:\Office Work\PDA Scanning Thu\obj\Debug\QHMobile.MainScreen.resources
+T:\Office Work\PDA Scanning Thu\obj\Debug\QHMobile.PickQH.resources
+T:\Office Work\PDA Scanning Thu\obj\Debug\QHMobile.POAssignBin.resources
+T:\Office Work\PDA Scanning Thu\obj\Debug\QHMobile.POAssignBinList.resources
+T:\Office Work\PDA Scanning Thu\obj\Debug\QHMobile.PurChaseOrder.resources
+T:\Office Work\PDA Scanning Thu\obj\Debug\QHMobile.frmSetting.resources
+T:\Office Work\PDA Scanning Thu\obj\Debug\QHMobile.TransferOrder.resources
+T:\Office Work\PDA Scanning Thu\obj\Debug\QHMobile.DailyLoss.resources
+T:\Office Work\PDA Scanning Thu\obj\Debug\QHMobile.StockTake.resources
+T:\Office Work\PDA Scanning Thu\obj\Debug\QHMobile.CreateTO.resources
+T:\Office Work\PDA Scanning Thu\obj\Debug\QHMobile.frmLogin.resources
+T:\Office Work\PDA Scanning Thu\obj\Debug\QHMobile.frmMain.resources
+T:\Office Work\PDA Scanning Thu\obj\Debug\QHMobile.Properties.Resources.resources
+T:\Office Work\PDA Scanning Thu\obj\Debug\QHMobile.VendorList.resources
+T:\Office Work\PDA Scanning Thu\obj\Debug\PDAScanning.csproj.GenerateResource.Cache
+T:\Office Work\PDA Scanning Thu\obj\Debug\QHMobile.exe
+T:\Office Work\PDA Scanning Thu\obj\Debug\QHMobile.pdb
+T:\Office Work\PDA Scanning Thu\obj\Debug\QHMobile.SOPickQH.resources
+T:\Office Work\PDA Scanning Thu\obj\Debug\QHMobile.EmptyBin.resources
+T:\Office Work\PDA Scanning Thu\obj\Debug\QHMobile.BlockBin.resources
+D:\workspace\QH New\Hsu\PDA Scanning Thu\bin\Debug\QHMobile.sdf
+D:\workspace\QH New\Hsu\PDA Scanning Thu\bin\Debug\Data\QHDatabase.sdf
+D:\workspace\QH New\Hsu\PDA Scanning Thu\bin\Debug\QHMobile.exe
+D:\workspace\QH New\Hsu\PDA Scanning Thu\bin\Debug\QHMobile.pdb
+D:\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\ResolveAssemblyReference.cache
+D:\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.BlockBin.resources
+D:\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.POAssignV1.resources
+D:\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.SOPickingQH.resources
+D:\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.EmptyBin.resources
+D:\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.DailyLossTS.resources
+D:\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.DailyLPost.resources
+D:\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.ItemLists.resources
+D:\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.Location.resources
+D:\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.MainScreen.resources
+D:\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.PickQH.resources
+D:\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.POAssignBin.resources
+D:\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.POAssignBinList.resources
+D:\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.PurChaseOrder.resources
+D:\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.frmSetting.resources
+D:\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.TransferOrder.resources
+D:\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.DailyLoss.resources
+D:\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.StockTake.resources
+D:\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.CreateTO.resources
+D:\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.frmLogin.resources
+D:\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.frmMain.resources
+D:\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.Properties.Resources.resources
+D:\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.VendorList.resources
+D:\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\PDAScanning.csproj.GenerateResource.Cache
+D:\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.exe
+D:\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.pdb
+D:\HMZ\workspace\QH New\Hsu\PDA Scanning Thu\bin\Debug\QHMobile.sdf
+D:\HMZ\workspace\QH New\Hsu\PDA Scanning Thu\bin\Debug\Data\QHDatabase.sdf
+D:\HMZ\workspace\QH New\Hsu\PDA Scanning Thu\bin\Debug\QHMobile.exe
+D:\HMZ\workspace\QH New\Hsu\PDA Scanning Thu\bin\Debug\QHMobile.pdb
+D:\HMZ\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\ResolveAssemblyReference.cache
+D:\HMZ\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.BlockBin.resources
+D:\HMZ\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.POAssignV1.resources
+D:\HMZ\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.SOPickingQH.resources
+D:\HMZ\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.EmptyBin.resources
+D:\HMZ\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.DailyLossTS.resources
+D:\HMZ\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.DailyLPost.resources
+D:\HMZ\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.ItemLists.resources
+D:\HMZ\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.Location.resources
+D:\HMZ\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.MainScreen.resources
+D:\HMZ\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.PickQH.resources
+D:\HMZ\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.POAssignBin.resources
+D:\HMZ\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.POAssignBinList.resources
+D:\HMZ\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.PurChaseOrder.resources
+D:\HMZ\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.frmSetting.resources
+D:\HMZ\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.TransferOrder.resources
+D:\HMZ\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.DailyLoss.resources
+D:\HMZ\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.StockTake.resources
+D:\HMZ\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.CreateTO.resources
+D:\HMZ\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.frmLogin.resources
+D:\HMZ\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.frmMain.resources
+D:\HMZ\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.Properties.Resources.resources
+D:\HMZ\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.VendorList.resources
+D:\HMZ\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\PDAScanning.csproj.GenerateResource.Cache
+D:\HMZ\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.exe
+D:\HMZ\workspace\QH New\Hsu\PDA Scanning Thu\obj\Debug\QHMobile.pdb
+D:\HMZ\workspace\QH New\Hsu\To upload\PDA Scanning Thu\bin\Debug\QHMobile.sdf
+D:\HMZ\workspace\QH New\Hsu\To upload\PDA Scanning Thu\bin\Debug\Data\QHDatabase.sdf
+D:\HMZ\workspace\QH New\Hsu\To upload\PDA Scanning Thu\bin\Debug\QHMobile.exe
+D:\HMZ\workspace\QH New\Hsu\To upload\PDA Scanning Thu\bin\Debug\QHMobile.pdb
+D:\HMZ\workspace\QH New\Hsu\To upload\PDA Scanning Thu\obj\Debug\ResolveAssemblyReference.cache
+D:\HMZ\workspace\QH New\Hsu\To upload\PDA Scanning Thu\obj\Debug\QHMobile.BlockBin.resources
+D:\HMZ\workspace\QH New\Hsu\To upload\PDA Scanning Thu\obj\Debug\QHMobile.POAssignV1.resources
+D:\HMZ\workspace\QH New\Hsu\To upload\PDA Scanning Thu\obj\Debug\QHMobile.SOPickingQH.resources
+D:\HMZ\workspace\QH New\Hsu\To upload\PDA Scanning Thu\obj\Debug\QHMobile.EmptyBin.resources
+D:\HMZ\workspace\QH New\Hsu\To upload\PDA Scanning Thu\obj\Debug\QHMobile.DailyLossTS.resources
+D:\HMZ\workspace\QH New\Hsu\To upload\PDA Scanning Thu\obj\Debug\QHMobile.DailyLPost.resources
+D:\HMZ\workspace\QH New\Hsu\To upload\PDA Scanning Thu\obj\Debug\QHMobile.ItemLists.resources
+D:\HMZ\workspace\QH New\Hsu\To upload\PDA Scanning Thu\obj\Debug\QHMobile.Location.resources
+D:\HMZ\workspace\QH New\Hsu\To upload\PDA Scanning Thu\obj\Debug\QHMobile.MainScreen.resources
+D:\HMZ\workspace\QH New\Hsu\To upload\PDA Scanning Thu\obj\Debug\QHMobile.PickQH.resources
+D:\HMZ\workspace\QH New\Hsu\To upload\PDA Scanning Thu\obj\Debug\QHMobile.POAssignBin.resources
+D:\HMZ\workspace\QH New\Hsu\To upload\PDA Scanning Thu\obj\Debug\QHMobile.POAssignBinList.resources
+D:\HMZ\workspace\QH New\Hsu\To upload\PDA Scanning Thu\obj\Debug\QHMobile.PurChaseOrder.resources
+D:\HMZ\workspace\QH New\Hsu\To upload\PDA Scanning Thu\obj\Debug\QHMobile.frmSetting.resources
+D:\HMZ\workspace\QH New\Hsu\To upload\PDA Scanning Thu\obj\Debug\QHMobile.TransferOrder.resources
+D:\HMZ\workspace\QH New\Hsu\To upload\PDA Scanning Thu\obj\Debug\QHMobile.DailyLoss.resources
+D:\HMZ\workspace\QH New\Hsu\To upload\PDA Scanning Thu\obj\Debug\QHMobile.StockTake.resources
+D:\HMZ\workspace\QH New\Hsu\To upload\PDA Scanning Thu\obj\Debug\QHMobile.CreateTO.resources
+D:\HMZ\workspace\QH New\Hsu\To upload\PDA Scanning Thu\obj\Debug\QHMobile.frmLogin.resources
+D:\HMZ\workspace\QH New\Hsu\To upload\PDA Scanning Thu\obj\Debug\QHMobile.frmMain.resources
+D:\HMZ\workspace\QH New\Hsu\To upload\PDA Scanning Thu\obj\Debug\QHMobile.Properties.Resources.resources
+D:\HMZ\workspace\QH New\Hsu\To upload\PDA Scanning Thu\obj\Debug\QHMobile.VendorList.resources
+D:\HMZ\workspace\QH New\Hsu\To upload\PDA Scanning Thu\obj\Debug\PDAScanning.csproj.GenerateResource.Cache
+D:\HMZ\workspace\QH New\Hsu\To upload\PDA Scanning Thu\obj\Debug\QHMobile.exe
+D:\HMZ\workspace\QH New\Hsu\To upload\PDA Scanning Thu\obj\Debug\QHMobile.pdb
+D:\HMZ\workspace\QH New\12feb13\To upload\PDA Scanning Thu\bin\Debug\QHMobile.sdf
+D:\HMZ\workspace\QH New\12feb13\To upload\PDA Scanning Thu\bin\Debug\Data\QHDatabase.sdf
+D:\HMZ\workspace\QH New\12feb13\To upload\PDA Scanning Thu\bin\Debug\QHMobile.exe
+D:\HMZ\workspace\QH New\12feb13\To upload\PDA Scanning Thu\bin\Debug\QHMobile.pdb
+D:\HMZ\workspace\QH New\12feb13\To upload\PDA Scanning Thu\obj\Debug\ResolveAssemblyReference.cache
+D:\HMZ\workspace\QH New\12feb13\To upload\PDA Scanning Thu\obj\Debug\QHMobile.BlockBin.resources
+D:\HMZ\workspace\QH New\12feb13\To upload\PDA Scanning Thu\obj\Debug\QHMobile.POAssignV1.resources
+D:\HMZ\workspace\QH New\12feb13\To upload\PDA Scanning Thu\obj\Debug\QHMobile.SOPickingQH.resources
+D:\HMZ\workspace\QH New\12feb13\To upload\PDA Scanning Thu\obj\Debug\QHMobile.EmptyBin.resources
+D:\HMZ\workspace\QH New\12feb13\To upload\PDA Scanning Thu\obj\Debug\QHMobile.DailyLossTS.resources
+D:\HMZ\workspace\QH New\12feb13\To upload\PDA Scanning Thu\obj\Debug\QHMobile.DailyLPost.resources
+D:\HMZ\workspace\QH New\12feb13\To upload\PDA Scanning Thu\obj\Debug\QHMobile.ItemLists.resources
+D:\HMZ\workspace\QH New\12feb13\To upload\PDA Scanning Thu\obj\Debug\QHMobile.Location.resources
+D:\HMZ\workspace\QH New\12feb13\To upload\PDA Scanning Thu\obj\Debug\QHMobile.MainScreen.resources
+D:\HMZ\workspace\QH New\12feb13\To upload\PDA Scanning Thu\obj\Debug\QHMobile.PickQH.resources
+D:\HMZ\workspace\QH New\12feb13\To upload\PDA Scanning Thu\obj\Debug\QHMobile.POAssignBin.resources
+D:\HMZ\workspace\QH New\12feb13\To upload\PDA Scanning Thu\obj\Debug\QHMobile.POAssignBinList.resources
+D:\HMZ\workspace\QH New\12feb13\To upload\PDA Scanning Thu\obj\Debug\QHMobile.PurChaseOrder.resources
+D:\HMZ\workspace\QH New\12feb13\To upload\PDA Scanning Thu\obj\Debug\QHMobile.frmSetting.resources
+D:\HMZ\workspace\QH New\12feb13\To upload\PDA Scanning Thu\obj\Debug\QHMobile.TransferOrder.resources
+D:\HMZ\workspace\QH New\12feb13\To upload\PDA Scanning Thu\obj\Debug\QHMobile.DailyLoss.resources
+D:\HMZ\workspace\QH New\12feb13\To upload\PDA Scanning Thu\obj\Debug\QHMobile.StockTake.resources
+D:\HMZ\workspace\QH New\12feb13\To upload\PDA Scanning Thu\obj\Debug\QHMobile.CreateTO.resources
+D:\HMZ\workspace\QH New\12feb13\To upload\PDA Scanning Thu\obj\Debug\QHMobile.frmLogin.resources
+D:\HMZ\workspace\QH New\12feb13\To upload\PDA Scanning Thu\obj\Debug\QHMobile.frmMain.resources
+D:\HMZ\workspace\QH New\12feb13\To upload\PDA Scanning Thu\obj\Debug\QHMobile.Properties.Resources.resources
+D:\HMZ\workspace\QH New\12feb13\To upload\PDA Scanning Thu\obj\Debug\QHMobile.VendorList.resources
+D:\HMZ\workspace\QH New\12feb13\To upload\PDA Scanning Thu\obj\Debug\PDAScanning.csproj.GenerateResource.Cache
+D:\HMZ\workspace\QH New\12feb13\To upload\PDA Scanning Thu\obj\Debug\QHMobile.exe
+D:\HMZ\workspace\QH New\12feb13\To upload\PDA Scanning Thu\obj\Debug\QHMobile.pdb
+T:\PDA Scanning Thu\bin\Debug\QHMobile.sdf
+T:\PDA Scanning Thu\bin\Debug\Data\QHDatabase.sdf
+T:\PDA Scanning Thu\bin\Debug\QHMobile.exe
+T:\PDA Scanning Thu\bin\Debug\QHMobile.pdb
+T:\PDA Scanning Thu\obj\Debug\ResolveAssemblyReference.cache
+T:\PDA Scanning Thu\obj\Debug\QHMobile.BlockBin.resources
+T:\PDA Scanning Thu\obj\Debug\QHMobile.POAssignV1.resources
+T:\PDA Scanning Thu\obj\Debug\QHMobile.SOPickingQH.resources
+T:\PDA Scanning Thu\obj\Debug\QHMobile.EmptyBin.resources
+T:\PDA Scanning Thu\obj\Debug\QHMobile.DailyLossTS.resources
+T:\PDA Scanning Thu\obj\Debug\QHMobile.DailyLPost.resources
+T:\PDA Scanning Thu\obj\Debug\QHMobile.ItemLists.resources
+T:\PDA Scanning Thu\obj\Debug\QHMobile.Location.resources
+T:\PDA Scanning Thu\obj\Debug\QHMobile.MainScreen.resources
+T:\PDA Scanning Thu\obj\Debug\QHMobile.PickQH.resources
+T:\PDA Scanning Thu\obj\Debug\QHMobile.POAssignBin.resources
+T:\PDA Scanning Thu\obj\Debug\QHMobile.POAssignBinList.resources
+T:\PDA Scanning Thu\obj\Debug\QHMobile.PurChaseOrder.resources
+T:\PDA Scanning Thu\obj\Debug\QHMobile.frmSetting.resources
+T:\PDA Scanning Thu\obj\Debug\QHMobile.TransferOrder.resources
+T:\PDA Scanning Thu\obj\Debug\QHMobile.DailyLoss.resources
+T:\PDA Scanning Thu\obj\Debug\QHMobile.StockTake.resources
+T:\PDA Scanning Thu\obj\Debug\QHMobile.CreateTO.resources
+T:\PDA Scanning Thu\obj\Debug\QHMobile.frmLogin.resources
+T:\PDA Scanning Thu\obj\Debug\QHMobile.frmMain.resources
+T:\PDA Scanning Thu\obj\Debug\QHMobile.Properties.Resources.resources
+T:\PDA Scanning Thu\obj\Debug\QHMobile.VendorList.resources
+T:\PDA Scanning Thu\obj\Debug\PDAScanning.csproj.GenerateResource.Cache
+T:\PDA Scanning Thu\obj\Debug\QHMobile.exe
+T:\PDA Scanning Thu\obj\Debug\QHMobile.pdb
+D:\HMZ\workspace\QH New\Hsu\Feb Update\PDA Scanning Thu\bin\Debug\QHMobile.sdf
+D:\HMZ\workspace\QH New\Hsu\Feb Update\PDA Scanning Thu\bin\Debug\Data\QHDatabase.sdf
+D:\HMZ\workspace\QH New\Hsu\Feb Update\PDA Scanning Thu\bin\Debug\QHMobile.exe
+D:\HMZ\workspace\QH New\Hsu\Feb Update\PDA Scanning Thu\bin\Debug\QHMobile.pdb
+D:\HMZ\workspace\QH New\Hsu\Feb Update\PDA Scanning Thu\obj\Debug\ResolveAssemblyReference.cache
+D:\HMZ\workspace\QH New\Hsu\Feb Update\PDA Scanning Thu\obj\Debug\QHMobile.BlockBin.resources
+D:\HMZ\workspace\QH New\Hsu\Feb Update\PDA Scanning Thu\obj\Debug\QHMobile.POAssignV1.resources
+D:\HMZ\workspace\QH New\Hsu\Feb Update\PDA Scanning Thu\obj\Debug\QHMobile.SOPickingQH.resources
+D:\HMZ\workspace\QH New\Hsu\Feb Update\PDA Scanning Thu\obj\Debug\QHMobile.EmptyBin.resources
+D:\HMZ\workspace\QH New\Hsu\Feb Update\PDA Scanning Thu\obj\Debug\QHMobile.DailyLossTS.resources
+D:\HMZ\workspace\QH New\Hsu\Feb Update\PDA Scanning Thu\obj\Debug\QHMobile.DailyLPost.resources
+D:\HMZ\workspace\QH New\Hsu\Feb Update\PDA Scanning Thu\obj\Debug\QHMobile.ItemLists.resources
+D:\HMZ\workspace\QH New\Hsu\Feb Update\PDA Scanning Thu\obj\Debug\QHMobile.Location.resources
+D:\HMZ\workspace\QH New\Hsu\Feb Update\PDA Scanning Thu\obj\Debug\QHMobile.MainScreen.resources
+D:\HMZ\workspace\QH New\Hsu\Feb Update\PDA Scanning Thu\obj\Debug\QHMobile.PickQH.resources
+D:\HMZ\workspace\QH New\Hsu\Feb Update\PDA Scanning Thu\obj\Debug\QHMobile.POAssignBin.resources
+D:\HMZ\workspace\QH New\Hsu\Feb Update\PDA Scanning Thu\obj\Debug\QHMobile.POAssignBinList.resources
+D:\HMZ\workspace\QH New\Hsu\Feb Update\PDA Scanning Thu\obj\Debug\QHMobile.PurChaseOrder.resources
+D:\HMZ\workspace\QH New\Hsu\Feb Update\PDA Scanning Thu\obj\Debug\QHMobile.frmSetting.resources
+D:\HMZ\workspace\QH New\Hsu\Feb Update\PDA Scanning Thu\obj\Debug\QHMobile.TransferOrder.resources
+D:\HMZ\workspace\QH New\Hsu\Feb Update\PDA Scanning Thu\obj\Debug\QHMobile.DailyLoss.resources
+D:\HMZ\workspace\QH New\Hsu\Feb Update\PDA Scanning Thu\obj\Debug\QHMobile.StockTake.resources
+D:\HMZ\workspace\QH New\Hsu\Feb Update\PDA Scanning Thu\obj\Debug\QHMobile.CreateTO.resources
+D:\HMZ\workspace\QH New\Hsu\Feb Update\PDA Scanning Thu\obj\Debug\QHMobile.frmLogin.resources
+D:\HMZ\workspace\QH New\Hsu\Feb Update\PDA Scanning Thu\obj\Debug\QHMobile.frmMain.resources
+D:\HMZ\workspace\QH New\Hsu\Feb Update\PDA Scanning Thu\obj\Debug\QHMobile.Properties.Resources.resources
+D:\HMZ\workspace\QH New\Hsu\Feb Update\PDA Scanning Thu\obj\Debug\QHMobile.VendorList.resources
+D:\HMZ\workspace\QH New\Hsu\Feb Update\PDA Scanning Thu\obj\Debug\PDAScanning.csproj.GenerateResource.Cache
+D:\HMZ\workspace\QH New\Hsu\Feb Update\PDA Scanning Thu\obj\Debug\QHMobile.exe
+D:\HMZ\workspace\QH New\Hsu\Feb Update\PDA Scanning Thu\obj\Debug\QHMobile.pdb
+T:\Office Work\Development\QH\PDA Scanning Thu\bin\Debug\QHMobile.sdf
+T:\Office Work\Development\QH\PDA Scanning Thu\bin\Debug\Data\QHDatabase.sdf
+T:\Office Work\Development\QH\PDA Scanning Thu\bin\Debug\QHMobile.exe
+T:\Office Work\Development\QH\PDA Scanning Thu\bin\Debug\QHMobile.pdb
+T:\Office Work\Development\QH\PDA Scanning Thu\obj\Debug\ResolveAssemblyReference.cache
+T:\Office Work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.BlockBin.resources
+T:\Office Work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.POAssignV1.resources
+T:\Office Work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.SOPickingQH.resources
+T:\Office Work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.EmptyBin.resources
+T:\Office Work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.DailyLossTS.resources
+T:\Office Work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.DailyLPost.resources
+T:\Office Work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.ItemLists.resources
+T:\Office Work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.Location.resources
+T:\Office Work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.MainScreen.resources
+T:\Office Work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.PickQH.resources
+T:\Office Work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.POAssignBin.resources
+T:\Office Work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.POAssignBinList.resources
+T:\Office Work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.PurChaseOrder.resources
+T:\Office Work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.frmSetting.resources
+T:\Office Work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.TransferOrder.resources
+T:\Office Work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.DailyLoss.resources
+T:\Office Work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.StockTake.resources
+T:\Office Work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.CreateTO.resources
+T:\Office Work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.frmLogin.resources
+T:\Office Work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.frmMain.resources
+T:\Office Work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.Properties.Resources.resources
+T:\Office Work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.VendorList.resources
+T:\Office Work\Development\QH\PDA Scanning Thu\obj\Debug\PDAScanning.csproj.GenerateResource.Cache
+T:\Office Work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.exe
+T:\Office Work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.pdb
+H:\office work\Development\QH\PDA Scanning Thu\bin\Debug\QHMobile.sdf
+H:\office work\Development\QH\PDA Scanning Thu\bin\Debug\Data\QHDatabase.sdf
+H:\office work\Development\QH\PDA Scanning Thu\bin\Debug\QHMobile.exe
+H:\office work\Development\QH\PDA Scanning Thu\bin\Debug\QHMobile.pdb
+H:\office work\Development\QH\PDA Scanning Thu\obj\Debug\ResolveAssemblyReference.cache
+H:\office work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.BlockBin.resources
+H:\office work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.POAssignV1.resources
+H:\office work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.SOPickingQH.resources
+H:\office work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.EmptyBin.resources
+H:\office work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.DailyLossTS.resources
+H:\office work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.DailyLPost.resources
+H:\office work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.ItemLists.resources
+H:\office work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.Location.resources
+H:\office work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.MainScreen.resources
+H:\office work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.PickQH.resources
+H:\office work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.POAssignBin.resources
+H:\office work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.POAssignBinList.resources
+H:\office work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.PurChaseOrder.resources
+H:\office work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.frmSetting.resources
+H:\office work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.TransferOrder.resources
+H:\office work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.DailyLoss.resources
+H:\office work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.StockTake.resources
+H:\office work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.CreateTO.resources
+H:\office work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.frmLogin.resources
+H:\office work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.frmMain.resources
+H:\office work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.Properties.Resources.resources
+H:\office work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.VendorList.resources
+H:\office work\Development\QH\PDA Scanning Thu\obj\Debug\PDAScanning.csproj.GenerateResource.Cache
+H:\office work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.exe
+H:\office work\Development\QH\PDA Scanning Thu\obj\Debug\QHMobile.pdb
