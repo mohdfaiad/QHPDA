@@ -4,7 +4,7 @@
 <remUser>hsu</remUser>
 <remPassword>hsu</remPassword>
   <userName>admin</userName>
-  <password>bingo28*</password>
+  <password></password>
   <domain>dptech</domain>
   <ServiceUser>admin</ServiceUser>
   <Serviceurl>http://dpmaster:7047/DynamicsNAVQH/WS/Services</Serviceurl>

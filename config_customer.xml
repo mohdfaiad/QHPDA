@@ -5,7 +5,7 @@
   <Servicepassword>
   </Servicepassword>
   <userName>adminnas</userName>
-  <password>qh@71</password>
+  <password></password>
   <domain>QIANHU-NAV1</domain>
   <ServiceUser>adminnas</ServiceUser>
   <Serviceurl>http://10.1.1.72:7047/DynamicsNAV/WS/Qian%20Hu%20Database/services</Serviceurl>
